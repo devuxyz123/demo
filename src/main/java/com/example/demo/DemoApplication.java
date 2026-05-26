@@ -1,15 +1,18 @@
 package com.example.demo;
 
+import com.model.UserRecord;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.logging.Logger;
 
 @SpringBootApplication
 @RestController
+@RequestMapping("/api")
 public class DemoApplication {
 
 
@@ -25,6 +28,12 @@ public class DemoApplication {
         return title;
     }
 
+    @PostMapping(value="/user")
+    public ResponseEntity<UserRecord> createUser(@RequestBody UserRecord newUser) {
+        System.out.println("userRecord created ..."+newUser);
+        return ResponseEntity.ok(newUser);
+
+    }
 
     public static void main(String[] args) {
 
