@@ -10,4 +10,5 @@ public class UserRecord {
     //@Id
     private Long id;
     private String name;
+    private String role;
 }

@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.logging.Logger;
@@ -28,11 +29,23 @@ public class DemoApplication {
         return title;
     }
 
-    @PostMapping(value="/user")
+    @PostMapping(value="/admin" )
     public ResponseEntity<UserRecord> createUser(@RequestBody UserRecord newUser) {
-        System.out.println("userRecord created ..."+newUser);
+        System.out.println("userRecord created with role ..."+newUser.getRole());
         return ResponseEntity.ok(newUser);
 
+    }
+
+    @GetMapping("/products")
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+    public String getAllProducts() {
+        return "List of products";
+    }
+
+    @DeleteMapping("/delete/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
+    public String deleteProduct(@PathVariable Long id) {
+        return "Product deleted with ID "+10;
     }
 
     public static void main(String[] args) {

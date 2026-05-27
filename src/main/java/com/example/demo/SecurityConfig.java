@@ -27,7 +27,10 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         System.out.println("entered into securityconfig");
         http
-                 //Disable CSRF for REST APIs (use with caution in production)
+                 //Disable CSRF for REST APIs (use with caution in production. This is standard practice for stateless REST APIs
+                // (e.g., APIs using JWTs or HTTP Basic Auth where there are no session cookies).
+                // However, as the comment in the code suggests, you should keep CSRF enabled
+                // if your API relies on browser-managed session cookies.)
     .csrf(csrf -> csrf.disable())
 
                 // Enable CORS and link it to the corsConfigurationSource bean automatically
@@ -35,11 +38,19 @@ public class SecurityConfig {
 
                 // Define URL authorization rules
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/api/user").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/admin").hasRole("ADMIN")
+                        .requestMatchers("/api/delete/**").hasRole("ADMIN")
                         .requestMatchers(HttpMethod.GET, "/api/greet").permitAll()
                         .anyRequest().authenticated()
                 );
+
+//        http
+//                .csrf(csrf -> csrf.disable())
+//                .authorizeHttpRequests(auth -> auth
+//                        .requestMatchers("/api/delete/**").hasRole("ADMIN")
+//                        .anyRequest().authenticated()
+//                )
+//                .httpBasic(Customizer.withDefaults());
 
         return http.build();
     }
@@ -52,7 +63,7 @@ public class SecurityConfig {
                 .username("admin")
                 // Hashes the password "admin123"
                 .password(passwordEncoder.encode("admin123"))
-                .roles("ADMIN", "USER")
+                .roles("USER","ADMIN")
                 .build();
 
         UserDetails user = User.builder()

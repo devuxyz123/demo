@@ -1,534 +1,581 @@
-2026-05-25T12:24:47.208+05:30  INFO 15004 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15004 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T12:24:47.222+05:30  INFO 15004 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T12:24:47.377+05:30  INFO 15004 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T12:24:47.377+05:30  INFO 15004 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T12:24:49.811+05:30  INFO 15004 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T12:24:49.842+05:30  INFO 15004 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T12:24:49.842+05:30  INFO 15004 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T12:24:49.920+05:30  INFO 15004 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2543 ms
-2026-05-25T12:24:50.828+05:30  INFO 15004 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-05-25T12:24:51.094+05:30  INFO 15004 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T12:24:51.312+05:30  INFO 15004 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T12:24:51.328+05:30  INFO 15004 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.964 seconds (process running for 8.047)
-2026-05-25T12:28:47.230+05:30  INFO 15004 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T12:28:47.230+05:30  INFO 15004 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T12:28:47.230+05:30  INFO 15004 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T12:28:47.298+05:30  WARN 15004 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/user' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T13:24:17.319+05:30  INFO 15004 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:24:17.531+05:30  INFO 15004 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:24:28.188+05:30  INFO 13080 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13080 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:24:28.188+05:30  INFO 13080 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:24:28.334+05:30  INFO 13080 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:24:28.334+05:30  INFO 13080 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:24:30.671+05:30  INFO 13080 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:24:30.702+05:30  INFO 13080 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:24:30.702+05:30  INFO 13080 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:24:30.780+05:30  INFO 13080 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2446 ms
-2026-05-25T13:24:31.264+05:30  INFO 13080 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-05-25T13:24:32.077+05:30  INFO 13080 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:24:32.171+05:30  INFO 13080 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:24:32.186+05:30  INFO 13080 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.943 seconds (process running for 6.176)
-2026-05-25T13:25:32.477+05:30  INFO 13080 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:25:32.478+05:30  INFO 13080 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:25:32.481+05:30  INFO 13080 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-05-25T13:27:12.987+05:30  INFO 13080 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:27:13.128+05:30  INFO 13080 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:27:23.704+05:30  INFO 12008 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12008 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:27:23.704+05:30  INFO 12008 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:27:23.848+05:30  INFO 12008 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:27:23.848+05:30  INFO 12008 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:27:26.068+05:30  INFO 12008 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:27:26.099+05:30  INFO 12008 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:27:26.099+05:30  INFO 12008 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:27:26.177+05:30  INFO 12008 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2329 ms
-2026-05-25T13:27:26.602+05:30  INFO 12008 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-05-25T13:27:27.196+05:30  INFO 12008 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:27:27.290+05:30  INFO 12008 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:27:27.305+05:30  INFO 12008 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.533 seconds (process running for 5.661)
-2026-05-25T13:28:14.069+05:30  INFO 12008 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:28:14.069+05:30  INFO 12008 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:28:14.080+05:30  INFO 12008 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2026-05-25T13:28:58.204+05:30  INFO 12008 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:28:58.345+05:30  INFO 12008 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:29:07.246+05:30  INFO 20160 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 20160 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:29:07.246+05:30  INFO 20160 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:29:07.396+05:30  INFO 20160 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:29:07.396+05:30  INFO 20160 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:29:09.569+05:30  INFO 20160 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:29:09.585+05:30  INFO 20160 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:29:09.585+05:30  INFO 20160 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:29:09.648+05:30  INFO 20160 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2252 ms
-2026-05-25T13:29:10.054+05:30  INFO 20160 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-05-25T13:29:10.663+05:30  INFO 20160 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:29:10.773+05:30  INFO 20160 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:29:10.788+05:30  INFO 20160 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.527 seconds (process running for 5.676)
-2026-05-25T13:29:48.896+05:30  INFO 20160 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:29:48.897+05:30  INFO 20160 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:29:48.899+05:30  INFO 20160 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-05-25T13:32:01.057+05:30  INFO 20160 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:32:01.243+05:30  INFO 20160 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:32:11.119+05:30  INFO 12128 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12128 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:32:11.119+05:30  INFO 12128 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:32:11.258+05:30  INFO 12128 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:32:11.258+05:30  INFO 12128 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:32:13.382+05:30  INFO 12128 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:32:13.397+05:30  INFO 12128 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:32:13.397+05:30  INFO 12128 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:32:13.476+05:30  INFO 12128 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2218 ms
-2026-05-25T13:32:13.897+05:30  INFO 12128 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-05-25T13:32:14.507+05:30  INFO 12128 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:32:14.600+05:30  INFO 12128 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:32:14.616+05:30  INFO 12128 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.403 seconds (process running for 5.484)
-2026-05-25T13:32:45.805+05:30  INFO 12128 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:32:45.816+05:30  INFO 12128 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:32:45.816+05:30  INFO 12128 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T13:41:17.949+05:30  INFO 12128 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:41:18.074+05:30  INFO 12128 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:41:27.612+05:30  INFO 13776 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13776 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:41:27.628+05:30  INFO 13776 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:41:27.773+05:30  INFO 13776 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:41:27.773+05:30  INFO 13776 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:41:29.970+05:30  INFO 13776 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:41:29.986+05:30  INFO 13776 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:41:29.986+05:30  INFO 13776 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:41:30.064+05:30  INFO 13776 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2291 ms
-2026-05-25T13:41:30.611+05:30  INFO 13776 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:41:31.222+05:30  INFO 13776 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:41:31.315+05:30  INFO 13776 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:41:31.347+05:30  INFO 13776 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.613 seconds (process running for 6.079)
-2026-05-25T13:42:17.099+05:30  INFO 13776 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:42:17.099+05:30  INFO 13776 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:42:17.099+05:30  INFO 13776 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T13:43:05.807+05:30  INFO 13776 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:43:05.939+05:30  INFO 13776 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:43:13.766+05:30  INFO 2660 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 2660 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:43:13.782+05:30  INFO 2660 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:43:13.922+05:30  INFO 2660 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:43:13.922+05:30  INFO 2660 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:43:15.880+05:30  INFO 2660 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:43:15.896+05:30  INFO 2660 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:43:15.896+05:30  INFO 2660 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:43:15.958+05:30  INFO 2660 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2036 ms
-2026-05-25T13:43:16.505+05:30  INFO 2660 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:43:17.115+05:30  INFO 2660 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:43:17.222+05:30  INFO 2660 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:43:17.238+05:30  INFO 2660 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.422 seconds (process running for 5.418)
-2026-05-25T13:43:51.819+05:30  INFO 2660 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:43:51.819+05:30  INFO 2660 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:43:51.819+05:30  INFO 2660 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T13:45:53.452+05:30  INFO 2660 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:45:53.586+05:30  INFO 2660 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:46:01.715+05:30  INFO 10932 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 10932 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:46:01.731+05:30  INFO 10932 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:46:01.901+05:30  INFO 10932 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:46:01.901+05:30  INFO 10932 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:46:04.467+05:30  INFO 10932 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:46:04.498+05:30  INFO 10932 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:46:04.498+05:30  INFO 10932 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:46:04.608+05:30  INFO 10932 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2707 ms
-2026-05-25T13:46:05.249+05:30  INFO 10932 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:46:05.968+05:30  INFO 10932 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:46:06.076+05:30  INFO 10932 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:46:06.107+05:30  INFO 10932 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.772 seconds (process running for 7.069)
-2026-05-25T13:46:35.084+05:30  INFO 10932 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:46:35.084+05:30  INFO 10932 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:46:35.087+05:30  INFO 10932 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-25T13:48:50.804+05:30  INFO 10932 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:48:50.929+05:30  INFO 10932 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:48:55.430+05:30  INFO 12940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12940 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:48:55.436+05:30  INFO 12940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:48:55.592+05:30  INFO 12940 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:48:55.593+05:30  INFO 12940 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:48:57.791+05:30  INFO 12940 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:48:57.806+05:30  INFO 12940 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:48:57.806+05:30  INFO 12940 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:48:57.869+05:30  INFO 12940 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2275 ms
-2026-05-25T13:48:58.463+05:30  INFO 12940 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:48:59.154+05:30  INFO 12940 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:48:59.266+05:30  INFO 12940 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:48:59.282+05:30  INFO 12940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.839 seconds (process running for 5.854)
-2026-05-25T13:50:09.918+05:30  INFO 12940 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:50:09.918+05:30  INFO 12940 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:50:09.918+05:30  INFO 12940 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T13:50:40.605+05:30  INFO 12940 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:50:40.794+05:30  INFO 12940 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:50:44.730+05:30  INFO 18072 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 18072 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:50:44.746+05:30  INFO 18072 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:50:44.877+05:30  INFO 18072 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:50:44.877+05:30  INFO 18072 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:50:46.944+05:30  INFO 18072 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:50:46.959+05:30  INFO 18072 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:50:46.959+05:30  INFO 18072 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:50:47.022+05:30  INFO 18072 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2145 ms
-2026-05-25T13:50:47.569+05:30  INFO 18072 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:50:48.178+05:30  INFO 18072 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:50:48.272+05:30  INFO 18072 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:50:48.287+05:30  INFO 18072 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.458 seconds (process running for 5.501)
-2026-05-25T13:50:55.334+05:30  INFO 18072 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T13:50:55.335+05:30  INFO 18072 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T13:50:55.337+05:30  INFO 18072 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-05-25T13:51:11.015+05:30  INFO 18072 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:51:11.165+05:30  INFO 18072 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:51:57.982+05:30  INFO 14388 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 14388 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:51:57.991+05:30  INFO 14388 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:51:58.188+05:30  INFO 14388 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:51:58.188+05:30  INFO 14388 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:52:00.699+05:30  INFO 14388 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:52:00.737+05:30  INFO 14388 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:52:00.737+05:30  INFO 14388 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:52:00.846+05:30  INFO 14388 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2658 ms
-2026-05-25T13:52:01.696+05:30  INFO 14388 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:52:03.010+05:30  INFO 14388 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:52:03.186+05:30  INFO 14388 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:52:03.217+05:30  INFO 14388 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.655 seconds (process running for 31.186)
-2026-05-25T13:52:43.722+05:30  INFO 14388 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:52:43.875+05:30  INFO 14388 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T13:52:56.127+05:30  INFO 17988 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 17988 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T13:52:56.142+05:30  INFO 17988 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T13:52:56.381+05:30  INFO 17988 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T13:52:56.381+05:30  INFO 17988 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T13:52:59.010+05:30  INFO 17988 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T13:52:59.025+05:30  INFO 17988 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T13:52:59.036+05:30  INFO 17988 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T13:52:59.114+05:30  INFO 17988 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2733 ms
-2026-05-25T13:52:59.803+05:30  INFO 17988 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T13:53:00.785+05:30  INFO 17988 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T13:53:00.959+05:30  INFO 17988 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T13:53:00.990+05:30  INFO 17988 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.506 seconds (process running for 16.28)
-2026-05-25T13:53:15.448+05:30  INFO 17988 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T13:53:15.574+05:30  INFO 17988 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T14:16:47.870+05:30  INFO 11520 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 11520 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T14:16:47.870+05:30  INFO 11520 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T14:16:48.063+05:30  INFO 11520 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T14:16:48.063+05:30  INFO 11520 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T14:16:50.489+05:30  INFO 11520 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T14:16:50.520+05:30  INFO 11520 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T14:16:50.520+05:30  INFO 11520 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T14:16:50.614+05:30  INFO 11520 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2551 ms
-2026-05-25T14:16:51.296+05:30  INFO 11520 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T14:16:52.270+05:30  INFO 11520 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T14:16:52.463+05:30  INFO 11520 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T14:16:52.495+05:30  INFO 11520 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.839 seconds (process running for 1413.03)
-2026-05-25T14:16:58.664+05:30  INFO 11520 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T14:16:58.789+05:30  INFO 11520 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T14:17:29.795+05:30  INFO 18260 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 18260 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T14:17:29.795+05:30  INFO 18260 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T14:17:30.021+05:30  INFO 18260 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T14:17:30.021+05:30  INFO 18260 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T14:17:32.745+05:30  INFO 18260 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T14:17:32.776+05:30  INFO 18260 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T14:17:32.776+05:30  INFO 18260 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T14:17:32.855+05:30  INFO 18260 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2831 ms
-2026-05-25T14:21:47.531+05:30  INFO 18260 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T14:22:33.773+05:30  INFO 18260 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T14:22:33.929+05:30  INFO 18260 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T14:22:33.945+05:30  INFO 18260 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 305.417 seconds (process running for 307.294)
-2026-05-25T14:22:33.945+05:30  INFO 18260 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T14:22:34.096+05:30  INFO 18260 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T14:22:50.479+05:30  INFO 656 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 656 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T14:22:50.494+05:30  INFO 656 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T14:22:50.677+05:30  INFO 656 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T14:22:50.677+05:30  INFO 656 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T14:22:52.988+05:30  INFO 656 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T14:22:53.019+05:30  INFO 656 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T14:22:53.019+05:30  INFO 656 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T14:22:53.082+05:30  INFO 656 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2405 ms
-2026-05-25T14:22:53.645+05:30  INFO 656 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T14:22:54.254+05:30  INFO 656 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T14:22:54.364+05:30  INFO 656 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T14:22:54.379+05:30  INFO 656 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.903 seconds (process running for 6.419)
-2026-05-25T14:23:32.005+05:30  INFO 656 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T14:23:32.005+05:30  INFO 656 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T14:23:32.005+05:30  INFO 656 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T14:51:01.853+05:30  INFO 656 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T14:51:01.987+05:30  INFO 656 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T15:49:04.279+05:30  INFO 980 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 980 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T15:49:04.294+05:30  INFO 980 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T15:49:04.434+05:30  INFO 980 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T15:49:04.434+05:30  INFO 980 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T15:49:07.083+05:30  INFO 980 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T15:49:07.114+05:30  INFO 980 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T15:49:07.114+05:30  INFO 980 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T15:49:07.208+05:30  INFO 980 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2774 ms
-2026-05-25T15:49:07.848+05:30  INFO 980 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T15:49:08.661+05:30  INFO 980 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T15:49:08.755+05:30  INFO 980 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T15:49:08.770+05:30  INFO 980 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.488 seconds (process running for 6.576)
-2026-05-25T15:50:29.746+05:30  INFO 980 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T15:50:29.746+05:30  INFO 980 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T15:50:29.746+05:30  INFO 980 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T15:52:51.196+05:30  INFO 980 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T15:52:51.575+05:30  INFO 980 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T15:53:01.667+05:30  INFO 5228 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 5228 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T15:53:01.667+05:30  INFO 5228 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T15:53:01.846+05:30  INFO 5228 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T15:53:01.846+05:30  INFO 5228 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T15:53:04.168+05:30  INFO 5228 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T15:53:04.200+05:30  INFO 5228 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T15:53:04.200+05:30  INFO 5228 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T15:53:04.278+05:30  INFO 5228 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2432 ms
-2026-05-25T15:53:04.810+05:30  INFO 5228 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T15:53:05.490+05:30  INFO 5228 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T15:53:05.599+05:30  INFO 5228 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T15:53:05.615+05:30  INFO 5228 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.828 seconds (process running for 5.87)
-2026-05-25T15:53:22.429+05:30  INFO 5228 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T15:53:22.429+05:30  INFO 5228 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T15:53:22.439+05:30  INFO 5228 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2026-05-25T15:53:53.192+05:30  INFO 5228 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T15:53:53.489+05:30  INFO 5228 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T15:57:52.225+05:30  INFO 15452 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15452 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T15:57:52.225+05:30  INFO 15452 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T15:57:52.385+05:30  INFO 15452 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T15:57:52.385+05:30  INFO 15452 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T15:57:54.931+05:30  INFO 15452 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T15:57:54.955+05:30  INFO 15452 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T15:57:54.955+05:30  INFO 15452 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T15:57:55.035+05:30  INFO 15452 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2650 ms
-2026-05-25T15:57:55.629+05:30  INFO 15452 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T15:57:56.275+05:30  INFO 15452 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T15:57:56.383+05:30  INFO 15452 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T15:57:56.394+05:30  INFO 15452 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.09 seconds (process running for 6.11)
-2026-05-25T15:58:15.958+05:30  INFO 15452 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T15:58:15.964+05:30  INFO 15452 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T15:58:15.964+05:30  INFO 15452 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T16:07:13.467+05:30  INFO 15452 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T16:07:13.802+05:30  INFO 15452 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T16:07:23.079+05:30  INFO 4180 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 4180 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T16:07:23.084+05:30  INFO 4180 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T16:07:23.229+05:30  INFO 4180 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T16:07:23.229+05:30  INFO 4180 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T16:07:25.601+05:30  INFO 4180 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T16:07:25.625+05:30  INFO 4180 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T16:07:25.626+05:30  INFO 4180 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T16:07:25.708+05:30  INFO 4180 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2479 ms
-2026-05-25T16:07:26.346+05:30  INFO 4180 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T16:07:27.131+05:30  INFO 4180 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T16:07:27.231+05:30  INFO 4180 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T16:07:27.247+05:30  INFO 4180 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.796 seconds (process running for 7.022)
-2026-05-25T16:07:33.867+05:30  INFO 4180 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T16:07:33.867+05:30  INFO 4180 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T16:07:33.867+05:30  INFO 4180 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T16:17:03.589+05:30  INFO 4180 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T16:17:03.969+05:30  INFO 4180 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T16:17:13.109+05:30  INFO 12680 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12680 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T16:17:13.124+05:30  INFO 12680 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T16:17:13.263+05:30  INFO 12680 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T16:17:13.263+05:30  INFO 12680 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T16:17:15.442+05:30  INFO 12680 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T16:17:15.458+05:30  INFO 12680 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T16:17:15.458+05:30  INFO 12680 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T16:17:15.536+05:30  INFO 12680 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2273 ms
-2026-05-25T16:17:16.099+05:30  INFO 12680 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T16:17:16.694+05:30  INFO 12680 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T16:17:16.802+05:30  INFO 12680 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T16:17:16.818+05:30  INFO 12680 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.637 seconds (process running for 5.593)
-2026-05-25T16:17:27.076+05:30  INFO 12680 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T16:17:27.076+05:30  INFO 12680 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T16:17:27.078+05:30  INFO 12680 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-25T16:19:36.502+05:30  INFO 12680 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T16:19:36.868+05:30  INFO 12680 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T16:19:51.475+05:30  INFO 8388 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 8388 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T16:19:51.491+05:30  INFO 8388 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T16:19:51.635+05:30  INFO 8388 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T16:19:51.635+05:30  INFO 8388 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T16:19:53.709+05:30  INFO 8388 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T16:19:53.724+05:30  INFO 8388 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T16:19:53.724+05:30  INFO 8388 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T16:19:53.787+05:30  INFO 8388 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2152 ms
-2026-05-25T16:19:54.308+05:30  INFO 8388 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T16:19:54.918+05:30  INFO 8388 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T16:19:55.013+05:30  INFO 8388 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T16:19:55.029+05:30  INFO 8388 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.476 seconds (process running for 5.524)
-2026-05-25T16:20:27.502+05:30  INFO 8388 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T16:20:27.502+05:30  INFO 8388 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T16:20:27.514+05:30  INFO 8388 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
-2026-05-25T16:21:08.996+05:30  INFO 8388 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T16:21:09.297+05:30  INFO 8388 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T16:21:17.864+05:30  INFO 1868 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 1868 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T16:21:17.864+05:30  INFO 1868 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T16:21:18.004+05:30  INFO 1868 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T16:21:18.004+05:30  INFO 1868 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T16:21:20.283+05:30  INFO 1868 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T16:21:20.299+05:30  INFO 1868 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T16:21:20.299+05:30  INFO 1868 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T16:21:20.379+05:30  INFO 1868 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2375 ms
-2026-05-25T16:21:21.069+05:30  INFO 1868 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T16:21:21.774+05:30  INFO 1868 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T16:21:21.868+05:30  INFO 1868 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T16:21:21.883+05:30  INFO 1868 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.136 seconds (process running for 6.1)
-2026-05-25T16:22:01.243+05:30  INFO 1868 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T16:22:01.243+05:30  INFO 1868 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T16:22:01.243+05:30  INFO 1868 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T16:32:06.617+05:30  INFO 1868 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T16:32:06.964+05:30  INFO 1868 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T16:32:15.803+05:30  INFO 18396 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 18396 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T16:32:15.803+05:30  INFO 18396 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T16:32:15.952+05:30  INFO 18396 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T16:32:15.952+05:30  INFO 18396 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T16:32:18.103+05:30  INFO 18396 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T16:32:18.134+05:30  INFO 18396 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T16:32:18.134+05:30  INFO 18396 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T16:32:18.197+05:30  INFO 18396 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2245 ms
-2026-05-25T16:32:18.760+05:30  INFO 18396 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T16:32:19.370+05:30  INFO 18396 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T16:32:19.479+05:30  INFO 18396 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T16:32:19.479+05:30  INFO 18396 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.659 seconds (process running for 5.837)
-2026-05-25T16:33:02.368+05:30  INFO 18396 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T16:33:02.368+05:30  INFO 18396 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T16:33:02.368+05:30  INFO 18396 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T16:33:02.479+05:30  INFO 18396 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : logging msg
-2026-05-25T16:33:02.479+05:30  WARN 18396 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T16:47:26.029+05:30  INFO 18396 --- [demo] [http-nio-8090-exec-6] com.example.demo.DemoApplication         : logging msg
-2026-05-25T16:47:26.029+05:30  WARN 18396 --- [demo] [http-nio-8090-exec-6] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T16:49:19.961+05:30  INFO 18396 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : logging msg
-2026-05-25T16:49:19.962+05:30  WARN 18396 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T16:50:58.174+05:30  INFO 18396 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T16:50:58.502+05:30  INFO 18396 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T16:51:44.352+05:30  INFO 12296 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12296 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T16:51:44.363+05:30  INFO 12296 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T16:51:44.497+05:30  INFO 12296 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T16:51:44.497+05:30  INFO 12296 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T16:51:46.625+05:30  INFO 12296 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T16:51:46.641+05:30  INFO 12296 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T16:51:46.641+05:30  INFO 12296 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T16:51:46.719+05:30  INFO 12296 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2222 ms
-2026-05-25T16:51:47.282+05:30  INFO 12296 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T16:51:47.704+05:30  INFO 12296 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T16:51:48.032+05:30  INFO 12296 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T16:51:48.032+05:30  INFO 12296 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.724 seconds (process running for 5.774)
-2026-05-25T16:52:11.459+05:30  INFO 12296 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T16:52:11.459+05:30  INFO 12296 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T16:52:11.459+05:30  INFO 12296 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T16:52:11.510+05:30  WARN 12296 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/user' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T16:52:22.182+05:30  INFO 12296 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : logging msg
-2026-05-25T16:52:22.182+05:30  WARN 12296 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T16:52:38.196+05:30  INFO 12296 --- [demo] [http-nio-8090-exec-5] com.example.demo.DemoApplication         : logging msg
-2026-05-25T16:52:38.196+05:30  WARN 12296 --- [demo] [http-nio-8090-exec-5] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T17:41:44.581+05:30  INFO 12296 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T17:41:44.738+05:30  INFO 12296 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T17:41:54.950+05:30  INFO 9932 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 9932 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T17:41:54.956+05:30  INFO 9932 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T17:41:55.105+05:30  INFO 9932 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T17:41:55.105+05:30  INFO 9932 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T17:41:57.236+05:30  INFO 9932 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T17:41:57.252+05:30  INFO 9932 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T17:41:57.252+05:30  INFO 9932 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T17:41:57.330+05:30  INFO 9932 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2225 ms
-2026-05-25T17:41:57.885+05:30  INFO 9932 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T17:41:58.307+05:30  INFO 9932 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T17:41:58.651+05:30  INFO 9932 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T17:41:58.667+05:30  INFO 9932 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.75 seconds (process running for 5.73)
-2026-05-25T17:42:18.348+05:30  INFO 9932 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T17:42:18.348+05:30  INFO 9932 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T17:42:18.348+05:30  INFO 9932 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T17:42:18.404+05:30  WARN 9932 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/user' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T17:43:25.778+05:30  INFO 9932 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T17:43:25.890+05:30  INFO 9932 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T17:43:44.770+05:30  INFO 9568 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 9568 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T17:43:44.786+05:30  INFO 9568 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T17:43:44.912+05:30  INFO 9568 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T17:43:44.912+05:30  INFO 9568 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T17:43:47.027+05:30  INFO 9568 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T17:43:47.058+05:30  INFO 9568 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T17:43:47.058+05:30  INFO 9568 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T17:43:47.137+05:30  INFO 9568 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2209 ms
-2026-05-25T17:43:47.762+05:30  INFO 9568 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T17:43:48.184+05:30  INFO 9568 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T17:43:48.512+05:30  INFO 9568 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T17:43:48.527+05:30  INFO 9568 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.663 seconds (process running for 5.627)
-2026-05-25T17:46:25.310+05:30  INFO 9568 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T17:46:25.311+05:30  INFO 9568 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T17:46:25.314+05:30  INFO 9568 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-05-25T17:46:25.366+05:30  WARN 9568 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/user' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T17:50:27.322+05:30  INFO 9568 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T17:50:27.463+05:30  INFO 9568 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T17:50:36.719+05:30  INFO 3604 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 3604 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T17:50:36.725+05:30  INFO 3604 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T17:50:36.862+05:30  INFO 3604 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T17:50:36.862+05:30  INFO 3604 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T17:50:38.983+05:30  INFO 3604 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T17:50:38.998+05:30  INFO 3604 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T17:50:38.998+05:30  INFO 3604 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T17:50:39.077+05:30  INFO 3604 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2215 ms
-2026-05-25T17:50:39.733+05:30  INFO 3604 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T17:50:40.139+05:30  INFO 3604 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T17:50:40.452+05:30  INFO 3604 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T17:50:40.452+05:30  INFO 3604 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.67 seconds (process running for 6.035)
-2026-05-25T18:00:03.840+05:30  INFO 3604 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T18:00:03.981+05:30  INFO 3604 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T18:00:09.227+05:30  INFO 4036 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 4036 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T18:00:09.227+05:30  INFO 4036 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T18:00:09.395+05:30  INFO 4036 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T18:00:09.395+05:30  INFO 4036 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T18:00:11.963+05:30  INFO 4036 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T18:00:11.979+05:30  INFO 4036 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T18:00:11.979+05:30  INFO 4036 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T18:00:12.073+05:30  INFO 4036 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2678 ms
-2026-05-25T18:00:12.839+05:30  INFO 4036 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T18:00:13.292+05:30  INFO 4036 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T18:00:13.630+05:30  INFO 4036 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T18:00:13.644+05:30  INFO 4036 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.38 seconds (process running for 6.483)
-2026-05-25T18:00:33.660+05:30  INFO 4036 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T18:00:33.660+05:30  INFO 4036 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T18:00:33.660+05:30  INFO 4036 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T18:00:33.727+05:30  WARN 4036 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/user' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T18:12:18.413+05:30  INFO 4036 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T18:12:18.529+05:30  INFO 4036 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T19:09:33.804+05:30  INFO 15764 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15764 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T19:09:33.819+05:30  INFO 15764 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T19:09:34.074+05:30  INFO 15764 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T19:09:34.074+05:30  INFO 15764 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T19:09:36.712+05:30  INFO 15764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T19:09:36.743+05:30  INFO 15764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T19:09:36.743+05:30  INFO 15764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T19:09:36.837+05:30  INFO 15764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2763 ms
-2026-05-25T19:09:37.540+05:30  INFO 15764 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T19:09:38.089+05:30  INFO 15764 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T19:09:38.464+05:30  INFO 15764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T19:09:38.479+05:30  INFO 15764 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.729 seconds (process running for 6.847)
-2026-05-25T19:10:17.819+05:30  INFO 15764 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T19:10:17.819+05:30  INFO 15764 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T19:10:17.819+05:30  INFO 15764 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T19:10:17.936+05:30  WARN 15764 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/user' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T19:11:27.715+05:30  INFO 15764 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T19:11:28.048+05:30  INFO 15764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T19:11:35.952+05:30  INFO 19116 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19116 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T19:11:35.968+05:30  INFO 19116 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T19:11:36.115+05:30  INFO 19116 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T19:11:36.115+05:30  INFO 19116 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T19:11:38.221+05:30  INFO 19116 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T19:11:38.237+05:30  INFO 19116 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T19:11:38.237+05:30  INFO 19116 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T19:11:38.299+05:30  INFO 19116 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2184 ms
-2026-05-25T19:11:39.001+05:30  INFO 19116 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T19:11:39.423+05:30  INFO 19116 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T19:11:39.776+05:30  INFO 19116 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T19:11:39.792+05:30  INFO 19116 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.767 seconds (process running for 5.728)
-2026-05-25T19:11:48.632+05:30  INFO 19116 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T19:11:48.632+05:30  INFO 19116 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T19:11:48.632+05:30  INFO 19116 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-25T19:11:48.681+05:30  WARN 19116 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/greet' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T19:12:18.249+05:30  INFO 19116 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : logging msg
-2026-05-25T19:12:18.249+05:30  WARN 19116 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T19:37:50.921+05:30  INFO 19116 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T19:37:51.145+05:30  INFO 19116 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-25T19:38:11.372+05:30  INFO 14256 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 14256 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-05-25T19:38:11.372+05:30  INFO 14256 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-05-25T19:38:11.570+05:30  INFO 14256 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-25T19:38:11.570+05:30  INFO 14256 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-25T19:38:14.105+05:30  INFO 14256 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-05-25T19:38:14.136+05:30  INFO 14256 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-25T19:38:14.136+05:30  INFO 14256 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-05-25T19:38:14.230+05:30  INFO 14256 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2660 ms
-2026-05-25T19:38:15.110+05:30  INFO 14256 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-05-25T19:38:15.610+05:30  INFO 14256 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-05-25T19:38:16.001+05:30  INFO 14256 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-05-25T19:38:16.016+05:30  INFO 14256 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.616 seconds (process running for 6.936)
-2026-05-25T19:38:34.459+05:30  INFO 14256 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-25T19:38:34.459+05:30  INFO 14256 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-25T19:38:34.476+05:30  INFO 14256 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2026-05-25T19:38:34.625+05:30  WARN 14256 --- [demo] [http-nio-8090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/greet' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-05-25T19:38:35.263+05:30  INFO 14256 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : logging msg
-2026-05-25T19:38:35.264+05:30  WARN 14256 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : warning msg...
-2026-05-25T20:06:44.204+05:30  INFO 14256 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-25T20:06:44.340+05:30  INFO 14256 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T12:47:33.823+05:30  INFO 15900 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15900 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T12:47:33.841+05:30  INFO 15900 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T12:47:33.978+05:30  INFO 15900 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T12:47:33.994+05:30  INFO 15900 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T12:47:36.157+05:30  INFO 15900 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T12:47:36.188+05:30  INFO 15900 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T12:47:36.188+05:30  INFO 15900 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T12:47:36.266+05:30  INFO 15900 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2272 ms
+2026-05-26T12:47:36.954+05:30  INFO 15900 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T12:47:37.657+05:30  INFO 15900 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T12:47:37.755+05:30  INFO 15900 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T12:47:37.770+05:30  INFO 15900 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.985 seconds (process running for 6.329)
+2026-05-26T12:49:20.921+05:30  INFO 15900 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T12:49:20.921+05:30  INFO 15900 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T12:49:20.921+05:30  INFO 15900 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T12:49:34.574+05:30  INFO 15900 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : logging msg
+2026-05-26T12:49:34.576+05:30  WARN 15900 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : warning msg...
+2026-05-26T13:15:01.070+05:30  INFO 15900 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T13:15:01.264+05:30  INFO 15900 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T13:15:13.252+05:30  INFO 12088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T13:15:13.267+05:30  INFO 12088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T13:15:13.548+05:30  INFO 12088 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T13:15:13.548+05:30  INFO 12088 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T13:15:16.495+05:30  INFO 12088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T13:15:16.542+05:30  INFO 12088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T13:15:16.542+05:30  INFO 12088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T13:15:16.683+05:30  INFO 12088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3123 ms
+2026-05-26T13:15:17.449+05:30  INFO 12088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T13:15:18.131+05:30  INFO 12088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T13:15:18.225+05:30  INFO 12088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T13:15:18.240+05:30  INFO 12088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.192 seconds (process running for 7.412)
+2026-05-26T13:18:42.515+05:30  INFO 12088 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T13:18:42.515+05:30  INFO 12088 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T13:18:42.515+05:30  INFO 12088 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T13:18:42.631+05:30  INFO 12088 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : logging msg
+2026-05-26T13:18:42.631+05:30  WARN 12088 --- [demo] [http-nio-8090-exec-2] com.example.demo.DemoApplication         : warning msg...
+2026-05-26T13:28:32.354+05:30  INFO 12088 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T13:28:32.479+05:30  INFO 12088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T13:28:41.297+05:30  INFO 13988 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13988 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T13:28:41.312+05:30  INFO 13988 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T13:28:41.458+05:30  INFO 13988 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T13:28:41.458+05:30  INFO 13988 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T13:28:43.662+05:30  INFO 13988 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T13:28:43.677+05:30  INFO 13988 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T13:28:43.677+05:30  INFO 13988 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T13:28:43.740+05:30  INFO 13988 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2282 ms
+2026-05-26T13:28:44.412+05:30  INFO 13988 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T13:28:44.818+05:30  INFO 13988 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T13:28:45.131+05:30  INFO 13988 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T13:28:45.146+05:30  INFO 13988 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.762 seconds (process running for 5.794)
+2026-05-26T13:28:59.538+05:30  INFO 13988 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T13:28:59.538+05:30  INFO 13988 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T13:28:59.546+05:30  INFO 13988 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-05-26T13:28:59.603+05:30  WARN 13988 --- [demo] [http-nio-8090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/admin' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-05-26T13:29:39.149+05:30  INFO 13988 --- [demo] [http-nio-8090-exec-4] com.example.demo.DemoApplication         : logging msg
+2026-05-26T13:29:39.149+05:30  WARN 13988 --- [demo] [http-nio-8090-exec-4] com.example.demo.DemoApplication         : warning msg...
+2026-05-26T13:32:12.621+05:30  INFO 13988 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T13:32:12.762+05:30  INFO 13988 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T13:32:17.048+05:30  INFO 15232 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15232 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T13:32:17.048+05:30  INFO 15232 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T13:32:17.215+05:30  INFO 15232 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T13:32:17.215+05:30  INFO 15232 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T13:32:20.766+05:30  INFO 15232 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T13:32:20.798+05:30  INFO 15232 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T13:32:20.798+05:30  INFO 15232 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T13:32:21.050+05:30  INFO 15232 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3835 ms
+2026-05-26T13:32:22.067+05:30  INFO 15232 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T13:32:22.599+05:30  INFO 15232 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T13:32:22.942+05:30  INFO 15232 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T13:32:22.958+05:30  INFO 15232 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.944 seconds (process running for 7.975)
+2026-05-26T13:32:56.055+05:30  INFO 15232 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T13:32:56.056+05:30  INFO 15232 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T13:32:56.059+05:30  INFO 15232 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-26T13:32:56.108+05:30  WARN 15232 --- [demo] [http-nio-8090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/admin' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-05-26T13:33:51.243+05:30  INFO 15232 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T13:33:51.379+05:30  INFO 15232 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T13:34:00.684+05:30  INFO 11100 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 11100 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T13:34:00.684+05:30  INFO 11100 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T13:34:00.852+05:30  INFO 11100 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T13:34:00.852+05:30  INFO 11100 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T13:34:03.615+05:30  INFO 11100 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T13:34:03.646+05:30  INFO 11100 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T13:34:03.646+05:30  INFO 11100 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T13:34:03.740+05:30  INFO 11100 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2888 ms
+2026-05-26T13:34:04.552+05:30  INFO 11100 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T13:34:05.349+05:30  INFO 11100 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T13:34:05.442+05:30  INFO 11100 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T13:34:05.474+05:30  INFO 11100 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.749 seconds (process running for 6.861)
+2026-05-26T13:34:21.255+05:30  INFO 11100 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T13:34:21.255+05:30  INFO 11100 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T13:34:21.255+05:30  INFO 11100 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T13:37:21.825+05:30  INFO 11100 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T13:37:21.981+05:30  INFO 11100 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T13:37:31.244+05:30  INFO 5296 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 5296 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T13:37:31.259+05:30  INFO 5296 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T13:37:31.401+05:30  INFO 5296 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T13:37:31.401+05:30  INFO 5296 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T13:37:33.610+05:30  INFO 5296 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T13:37:33.625+05:30  INFO 5296 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T13:37:33.625+05:30  INFO 5296 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T13:37:33.703+05:30  INFO 5296 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2302 ms
+2026-05-26T13:37:34.422+05:30  INFO 5296 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T13:37:35.048+05:30  INFO 5296 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T13:37:35.126+05:30  INFO 5296 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T13:37:35.141+05:30  INFO 5296 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.8 seconds (process running for 5.804)
+2026-05-26T13:38:20.622+05:30  INFO 5296 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T13:38:20.623+05:30  INFO 5296 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T13:38:20.625+05:30  INFO 5296 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-26T13:41:20.852+05:30  INFO 5296 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T13:41:20.977+05:30  INFO 5296 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T15:06:38.869+05:30  INFO 1848 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 1848 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:06:38.877+05:30  INFO 1848 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:06:39.037+05:30  INFO 1848 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:06:39.037+05:30  INFO 1848 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:06:41.675+05:30  INFO 1848 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:06:41.707+05:30  INFO 1848 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:06:41.707+05:30  INFO 1848 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:06:41.800+05:30  INFO 1848 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2763 ms
+2026-05-26T15:06:42.567+05:30  INFO 1848 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:06:43.334+05:30  INFO 1848 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T15:06:43.459+05:30  INFO 1848 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T15:06:43.474+05:30  INFO 1848 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.623 seconds (process running for 7.25)
+2026-05-26T15:07:05.945+05:30  INFO 1848 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T15:07:05.960+05:30  INFO 1848 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T15:07:05.961+05:30  INFO 1848 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T15:07:18.398+05:30  INFO 1848 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : logging msg
+2026-05-26T15:07:18.398+05:30  WARN 1848 --- [demo] [http-nio-8090-exec-3] com.example.demo.DemoApplication         : warning msg...
+2026-05-26T15:20:33.124+05:30  INFO 1848 --- [demo] [http-nio-8090-exec-9] com.example.demo.DemoApplication         : logging msg
+2026-05-26T15:20:33.124+05:30  WARN 1848 --- [demo] [http-nio-8090-exec-9] com.example.demo.DemoApplication         : warning msg...
+2026-05-26T15:22:43.036+05:30  INFO 1848 --- [demo] [http-nio-8090-exec-5] com.example.demo.DemoApplication         : logging msg
+2026-05-26T15:22:43.036+05:30  WARN 1848 --- [demo] [http-nio-8090-exec-5] com.example.demo.DemoApplication         : warning msg...
+2026-05-26T15:37:41.746+05:30  INFO 1848 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T15:37:41.881+05:30  INFO 1848 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T15:37:49.834+05:30  INFO 19288 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19288 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:37:49.849+05:30  INFO 19288 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:37:49.988+05:30  INFO 19288 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:37:49.988+05:30  INFO 19288 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:37:52.589+05:30  INFO 19288 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:37:52.620+05:30  INFO 19288 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:37:52.620+05:30  INFO 19288 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:37:52.698+05:30  INFO 19288 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2710 ms
+2026-05-26T15:37:53.419+05:30  INFO 19288 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:37:54.169+05:30  INFO 19288 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T15:37:54.263+05:30  INFO 19288 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T15:37:54.263+05:30  INFO 19288 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.395 seconds (process running for 6.633)
+2026-05-26T15:38:07.858+05:30  INFO 19288 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T15:38:07.858+05:30  INFO 19288 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T15:38:07.858+05:30  INFO 19288 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T15:42:53.780+05:30  INFO 19288 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T15:42:53.956+05:30  INFO 19288 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T15:43:03.196+05:30  INFO 17956 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 17956 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:43:03.196+05:30  INFO 17956 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:43:03.333+05:30  INFO 17956 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:43:03.333+05:30  INFO 17956 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:43:05.503+05:30  INFO 17956 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:43:05.519+05:30  INFO 17956 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:43:05.519+05:30  INFO 17956 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:43:05.613+05:30  INFO 17956 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2280 ms
+2026-05-26T15:43:06.269+05:30  INFO 17956 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:43:06.894+05:30  INFO 17956 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T15:43:06.988+05:30  INFO 17956 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T15:43:07.003+05:30  INFO 17956 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.739 seconds (process running for 5.716)
+2026-05-26T15:43:38.332+05:30  INFO 17956 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T15:43:38.332+05:30  INFO 17956 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T15:43:38.332+05:30  INFO 17956 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T15:45:25.808+05:30  INFO 17956 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T15:45:25.924+05:30  INFO 17956 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T15:45:36.748+05:30  INFO 7144 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 7144 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:45:36.748+05:30  INFO 7144 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:45:36.894+05:30  INFO 7144 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:45:36.894+05:30  INFO 7144 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:45:38.988+05:30  INFO 7144 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:45:39.019+05:30  INFO 7144 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:45:39.019+05:30  INFO 7144 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:45:39.097+05:30  INFO 7144 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2203 ms
+2026-05-26T15:45:39.778+05:30  INFO 7144 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:45:40.388+05:30  INFO 7144 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T15:45:40.482+05:30  INFO 7144 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T15:45:40.497+05:30  INFO 7144 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.691 seconds (process running for 5.826)
+2026-05-26T15:45:55.053+05:30  INFO 7144 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T15:45:55.053+05:30  INFO 7144 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T15:45:55.061+05:30  INFO 7144 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-05-26T15:46:21.215+05:30  INFO 7144 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T15:46:21.336+05:30  INFO 7144 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T15:46:29.133+05:30  INFO 14384 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 14384 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:46:29.133+05:30  INFO 14384 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:46:29.286+05:30  INFO 14384 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:46:29.286+05:30  INFO 14384 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:46:31.616+05:30  INFO 14384 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:46:31.631+05:30  INFO 14384 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:46:31.631+05:30  INFO 14384 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:46:31.710+05:30  INFO 14384 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2424 ms
+2026-05-26T15:46:32.389+05:30  INFO 14384 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:46:33.079+05:30  INFO 14384 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T15:46:33.173+05:30  INFO 14384 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T15:46:33.189+05:30  INFO 14384 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.272 seconds (process running for 6.485)
+2026-05-26T15:46:40.869+05:30  INFO 14384 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T15:46:40.869+05:30  INFO 14384 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T15:46:40.869+05:30  INFO 14384 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T15:48:38.045+05:30  INFO 14384 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T15:48:38.212+05:30  INFO 14384 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T15:48:45.310+05:30  INFO 15992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15992 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:48:45.310+05:30  INFO 15992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:48:45.460+05:30  INFO 15992 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:48:45.460+05:30  INFO 15992 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:48:47.570+05:30  INFO 15992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:48:47.601+05:30  INFO 15992 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:48:47.601+05:30  INFO 15992 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:48:47.664+05:30  INFO 15992 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2204 ms
+2026-05-26T15:48:48.336+05:30  INFO 15992 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:48:48.461+05:30  WARN 15992 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+2026-05-26T15:48:48.477+05:30  INFO 15992 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-05-26T15:48:48.492+05:30  INFO 15992 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-26T15:48:48.523+05:30 ERROR 15992 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:872) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:827) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:864) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 44 common frames omitted
+Caused by: java.lang.IllegalStateException: Can't configure requestMatchers after anyRequest
+	at org.springframework.util.Assert.state(Assert.java:80) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:146) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.lambda$securityFilterChain$2(SecurityConfig.java:40) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:715) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.securityFilterChain(SecurityConfig.java:37) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398) ~[spring-context-7.0.5.jar:7.0.5]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 47 common frames omitted
+
+2026-05-26T15:52:15.453+05:30  INFO 1344 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 1344 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T15:52:15.467+05:30  INFO 1344 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T15:52:15.611+05:30  INFO 1344 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T15:52:15.611+05:30  INFO 1344 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T15:52:18.009+05:30  INFO 1344 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T15:52:18.025+05:30  INFO 1344 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T15:52:18.025+05:30  INFO 1344 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T15:52:18.087+05:30  INFO 1344 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2465 ms
+2026-05-26T15:52:18.798+05:30  INFO 1344 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T15:52:19.439+05:30  INFO 1344 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T15:52:19.518+05:30  INFO 1344 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T15:52:19.534+05:30  INFO 1344 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.065 seconds (process running for 6.052)
+2026-05-26T15:52:29.092+05:30  INFO 1344 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T15:52:29.092+05:30  INFO 1344 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T15:52:29.092+05:30  INFO 1344 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:01:49.606+05:30  INFO 1344 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:01:49.731+05:30  INFO 1344 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:02:00.261+05:30  INFO 4392 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 4392 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:02:00.269+05:30  INFO 4392 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:02:00.435+05:30  INFO 4392 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:02:00.435+05:30  INFO 4392 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:02:03.309+05:30  INFO 4392 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:02:03.325+05:30  INFO 4392 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:02:03.325+05:30  INFO 4392 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:02:03.403+05:30  INFO 4392 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2968 ms
+2026-05-26T16:02:04.141+05:30  INFO 4392 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:02:04.297+05:30  WARN 4392 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+2026-05-26T16:02:04.297+05:30  INFO 4392 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-05-26T16:02:04.313+05:30  INFO 4392 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-26T16:02:04.344+05:30 ERROR 4392 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:872) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:827) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:864) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Can't configure requestMatchers after anyRequest
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 44 common frames omitted
+Caused by: java.lang.IllegalStateException: Can't configure requestMatchers after anyRequest
+	at org.springframework.util.Assert.state(Assert.java:80) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:146) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:195) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.lambda$securityFilterChain$4(SecurityConfig.java:47) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:715) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.securityFilterChain(SecurityConfig.java:46) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398) ~[spring-context-7.0.5.jar:7.0.5]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 47 common frames omitted
+
+2026-05-26T16:07:52.843+05:30  INFO 5848 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 5848 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:07:52.843+05:30  INFO 5848 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:07:53.017+05:30  INFO 5848 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:07:53.017+05:30  INFO 5848 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:07:55.103+05:30  INFO 5848 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:07:55.119+05:30  INFO 5848 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:07:55.119+05:30  INFO 5848 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:07:55.197+05:30  INFO 5848 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2180 ms
+2026-05-26T16:07:55.874+05:30  INFO 5848 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:07:56.515+05:30  INFO 5848 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:07:56.608+05:30  INFO 5848 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:07:56.624+05:30  INFO 5848 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.703 seconds (process running for 5.769)
+2026-05-26T16:08:30.425+05:30  INFO 5848 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:08:30.425+05:30  INFO 5848 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:08:30.425+05:30  INFO 5848 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:10:07.943+05:30  INFO 5848 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:10:08.132+05:30  INFO 5848 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:10:17.295+05:30  INFO 16232 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16232 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:10:17.302+05:30  INFO 16232 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:10:17.460+05:30  INFO 16232 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:10:17.460+05:30  INFO 16232 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:10:20.510+05:30  INFO 16232 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:10:20.536+05:30  INFO 16232 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:10:20.536+05:30  INFO 16232 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:10:20.727+05:30  INFO 16232 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3267 ms
+2026-05-26T16:10:21.769+05:30  INFO 16232 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:10:22.644+05:30  INFO 16232 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:10:22.728+05:30  INFO 16232 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:10:22.744+05:30  INFO 16232 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.455 seconds (process running for 7.804)
+2026-05-26T16:11:06.684+05:30  INFO 16232 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:11:06.684+05:30  INFO 16232 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:11:06.684+05:30  INFO 16232 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:11:19.857+05:30  INFO 16232 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:11:19.990+05:30  INFO 16232 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:11:28.494+05:30  INFO 11052 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 11052 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:11:28.504+05:30  INFO 11052 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:11:29.388+05:30  INFO 11052 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:11:29.388+05:30  INFO 11052 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:11:32.321+05:30  INFO 11052 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:11:32.336+05:30  INFO 11052 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:11:32.336+05:30  INFO 11052 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:11:32.421+05:30  INFO 11052 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3033 ms
+2026-05-26T16:11:33.332+05:30  INFO 11052 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:11:34.200+05:30  INFO 11052 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:11:34.284+05:30  INFO 11052 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:11:34.307+05:30  INFO 11052 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.933 seconds (process running for 8.054)
+2026-05-26T16:11:37.635+05:30  INFO 11052 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:11:37.635+05:30  INFO 11052 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:11:37.635+05:30  INFO 11052 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:12:11.788+05:30  INFO 11052 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:12:11.898+05:30  INFO 11052 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:12:19.383+05:30  INFO 11396 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 11396 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:12:19.399+05:30  INFO 11396 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:12:19.540+05:30  INFO 11396 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:12:19.540+05:30  INFO 11396 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:12:21.811+05:30  INFO 11396 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:12:21.827+05:30  INFO 11396 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:12:21.827+05:30  INFO 11396 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:12:21.905+05:30  INFO 11396 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2356 ms
+2026-05-26T16:12:22.631+05:30  INFO 11396 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:12:23.780+05:30  INFO 11396 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:12:23.874+05:30  INFO 11396 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:12:23.874+05:30  INFO 11396 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.47 seconds (process running for 6.485)
+2026-05-26T16:12:31.464+05:30  INFO 11396 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:12:31.464+05:30  INFO 11396 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:12:31.464+05:30  INFO 11396 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:14:16.642+05:30  INFO 11396 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:14:16.776+05:30  INFO 11396 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:14:20.897+05:30  INFO 18768 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 18768 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:14:20.913+05:30  INFO 18768 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:14:21.050+05:30  INFO 18768 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:14:21.050+05:30  INFO 18768 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:14:23.458+05:30  INFO 18768 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:14:23.473+05:30  INFO 18768 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:14:23.473+05:30  INFO 18768 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:14:23.536+05:30  INFO 18768 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2486 ms
+2026-05-26T16:14:24.553+05:30  INFO 18768 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:14:25.197+05:30  INFO 18768 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:14:25.290+05:30  INFO 18768 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:14:25.306+05:30  INFO 18768 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.603 seconds (process running for 6.747)
+2026-05-26T16:14:46.009+05:30  INFO 18768 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:14:46.009+05:30  INFO 18768 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:14:46.009+05:30  INFO 18768 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:15:19.058+05:30  INFO 18768 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:15:19.183+05:30  INFO 18768 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:15:26.399+05:30  INFO 16572 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16572 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:15:26.399+05:30  INFO 16572 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:15:26.542+05:30  INFO 16572 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:15:26.542+05:30  INFO 16572 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:15:28.639+05:30  INFO 16572 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:15:28.655+05:30  INFO 16572 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:15:28.655+05:30  INFO 16572 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:15:28.733+05:30  INFO 16572 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2191 ms
+2026-05-26T16:15:29.405+05:30  INFO 16572 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:15:30.030+05:30  INFO 16572 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:15:30.124+05:30  INFO 16572 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:15:30.139+05:30  INFO 16572 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.661 seconds (process running for 5.789)
+2026-05-26T16:15:50.271+05:30  INFO 16572 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:15:50.271+05:30  INFO 16572 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:15:50.271+05:30  INFO 16572 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:16:47.954+05:30  INFO 16572 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:16:48.079+05:30  INFO 16572 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:16:55.258+05:30  INFO 9504 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 9504 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:16:55.266+05:30  INFO 9504 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:16:55.408+05:30  INFO 9504 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:16:55.408+05:30  INFO 9504 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:16:57.915+05:30  INFO 9504 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:16:57.931+05:30  INFO 9504 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:16:57.931+05:30  INFO 9504 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:16:58.025+05:30  INFO 9504 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2617 ms
+2026-05-26T16:16:58.681+05:30  INFO 9504 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:16:59.319+05:30  INFO 9504 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:16:59.412+05:30  INFO 9504 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:16:59.428+05:30  INFO 9504 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.138 seconds (process running for 6.115)
+2026-05-26T16:17:08.518+05:30  INFO 9504 --- [demo] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:17:08.518+05:30  INFO 9504 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:17:08.518+05:30  INFO 9504 --- [demo] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:17:45.786+05:30  INFO 9504 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:17:45.895+05:30  INFO 9504 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:17:53.367+05:30  INFO 16588 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16588 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:17:53.383+05:30  INFO 16588 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:17:53.517+05:30  INFO 16588 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:17:53.517+05:30  INFO 16588 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:17:55.553+05:30  INFO 16588 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:17:55.568+05:30  INFO 16588 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:17:55.568+05:30  INFO 16588 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:17:55.646+05:30  INFO 16588 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2129 ms
+2026-05-26T16:17:56.287+05:30  INFO 16588 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:17:56.913+05:30  INFO 16588 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:17:57.007+05:30  INFO 16588 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:17:57.023+05:30  INFO 16588 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.554 seconds (process running for 5.532)
+2026-05-26T16:18:02.565+05:30  INFO 16588 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:18:02.565+05:30  INFO 16588 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:18:02.565+05:30  INFO 16588 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:18:31.976+05:30  INFO 16588 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:18:32.127+05:30  INFO 16588 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:18:39.019+05:30  INFO 4468 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 4468 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:18:39.034+05:30  INFO 4468 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:18:39.179+05:30  INFO 4468 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:18:39.179+05:30  INFO 4468 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:18:41.735+05:30  INFO 4468 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:18:41.751+05:30  INFO 4468 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:18:41.751+05:30  INFO 4468 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:18:41.813+05:30  INFO 4468 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2634 ms
+2026-05-26T16:18:42.488+05:30  INFO 4468 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:18:43.098+05:30  INFO 4468 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:18:43.192+05:30  INFO 4468 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:18:43.207+05:30  INFO 4468 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.093 seconds (process running for 6.104)
+2026-05-26T16:18:47.897+05:30  INFO 4468 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:18:48.048+05:30  INFO 4468 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:18:54.859+05:30  INFO 18444 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 18444 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:18:54.859+05:30  INFO 18444 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:18:55.006+05:30  INFO 18444 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:18:55.006+05:30  INFO 18444 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:18:57.008+05:30  INFO 18444 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:18:57.039+05:30  INFO 18444 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:18:57.039+05:30  INFO 18444 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:18:57.133+05:30  INFO 18444 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2127 ms
+2026-05-26T16:18:57.789+05:30  INFO 18444 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:18:58.430+05:30  INFO 18444 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:18:58.508+05:30  INFO 18444 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:18:58.523+05:30  INFO 18444 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.58 seconds (process running for 5.556)
+2026-05-26T16:19:07.879+05:30  INFO 18444 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:19:07.879+05:30  INFO 18444 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:19:07.879+05:30  INFO 18444 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-26T16:19:51.586+05:30  INFO 18444 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:19:51.732+05:30  INFO 18444 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-26T16:19:59.534+05:30  INFO 5640 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 5640 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-05-26T16:19:59.541+05:30  INFO 5640 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-05-26T16:19:59.696+05:30  INFO 5640 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26T16:19:59.697+05:30  INFO 5640 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26T16:20:02.369+05:30  INFO 5640 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
+2026-05-26T16:20:02.385+05:30  INFO 5640 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-26T16:20:02.385+05:30  INFO 5640 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-26T16:20:02.463+05:30  INFO 5640 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2764 ms
+2026-05-26T16:20:03.151+05:30  INFO 5640 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-05-26T16:20:03.884+05:30  INFO 5640 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-05-26T16:20:03.993+05:30  INFO 5640 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
+2026-05-26T16:20:04.009+05:30  INFO 5640 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.616 seconds (process running for 6.685)
+2026-05-26T16:20:08.010+05:30  INFO 5640 --- [demo] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26T16:20:08.010+05:30  INFO 5640 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-26T16:20:08.013+05:30  INFO 5640 --- [demo] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-26T16:20:38.657+05:30  INFO 5640 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-26T16:20:38.782+05:30  INFO 5640 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
