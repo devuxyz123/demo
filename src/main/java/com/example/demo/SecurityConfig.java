@@ -72,13 +72,14 @@ public class SecurityConfig {
                 .password(passwordEncoder.encode("user123"))
                 .roles("USER")
                 .build();
+        System.out.println("in userDetailsService method");
 
         return new InMemoryUserDetailsManager(admin, user);
     }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+        System.out.println("in passwordEncoder method"); return new BCryptPasswordEncoder();
     }
 
     @Bean
