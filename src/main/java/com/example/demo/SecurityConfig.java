@@ -25,7 +25,7 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        System.out.println("entered into securityconfig");
+        System.out.println("entered into securityconfig")
         http
                  //Disable CSRF for REST APIs (use with caution in production.
                 // This is standard practice for stateless REST APIs
