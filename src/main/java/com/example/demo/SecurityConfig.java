@@ -27,7 +27,8 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         System.out.println("entered into securityconfig");
         http
-                 //Disable CSRF for REST APIs (use with caution in production. This is standard practice for stateless REST APIs
+                 //Disable CSRF for REST APIs (use with caution in production.
+                // This is standard practice for stateless REST APIs
                 // (e.g., APIs using JWTs or HTTP Basic Auth where there are no session cookies).
                 // However, as the comment in the code suggests, you should keep CSRF enabled
                 // if your API relies on browser-managed session cookies.)
