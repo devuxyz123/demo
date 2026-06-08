@@ -27,7 +27,7 @@ public class DemoApplication {
     @GetMapping("/greet")
     public String greet() {
        logger.info("logging msg");
-       logger.warning("warning msg...");
+       logger.warning("greeting successfully...");
         return title;
     }
 
