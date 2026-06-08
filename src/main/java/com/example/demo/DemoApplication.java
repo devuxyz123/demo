@@ -82,7 +82,7 @@ public class DemoApplication {
         errorBody.put("status", HttpStatus.NOT_FOUND.value());
         errorBody.put("error", "Handling locally Product Not Found");
         errorBody.put("message", ex.getMessage());
-        errorBody.put("requestedId", ex.getOrderId());
+        errorBody.put("requestedId", ex.getOrderId())
 
         return new ResponseEntity<>(errorBody, HttpStatus.NOT_FOUND);
     }
