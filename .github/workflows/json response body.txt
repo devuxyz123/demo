@@ -1,0 +1,5 @@
+Send a HTTP POST request to http://localhost:8080/api/v1/pdf/generate using a tool like Postman or cURL.Sample Request Body:json{
+  "title": "Quarterly Financial Analysis",
+  "description": "This document contains sensitive financial projections for the upcoming fiscal quarter.",
+  "author": "Jane Doe"
+}

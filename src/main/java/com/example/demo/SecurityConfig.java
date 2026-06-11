@@ -41,6 +41,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.POST, "/api/admin").hasRole("ADMIN")
                         .requestMatchers("/api/delete/**").hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.POST,"/api/pdf/**").hasAnyRole("ADMIN","USER")
                         .requestMatchers(HttpMethod.GET, "/api/greet").permitAll()
                         .anyRequest().authenticated()
                 );

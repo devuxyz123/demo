@@ -1,368 +1,346 @@
-2026-06-08T18:35:09.808+05:30  INFO 12112 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12112 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T18:35:09.822+05:30  INFO 12112 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T18:35:09.991+05:30  INFO 12112 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-08T18:35:09.991+05:30  INFO 12112 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-08T18:35:12.555+05:30  INFO 12112 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8090 (http)
-2026-06-08T18:35:12.586+05:30  INFO 12112 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T18:35:12.586+05:30  INFO 12112 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T18:35:12.696+05:30  INFO 12112 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2689 ms
-2026-06-08T18:35:13.680+05:30  WARN 12112 --- [demo] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 613bfd26-908b-46c4-867f-725d809a3c1a
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-06-08T18:35:13.743+05:30  INFO 12112 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T18:35:14.055+05:30  INFO 12112 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T18:35:14.336+05:30  INFO 12112 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8090 (http) with context path '/'
-2026-06-08T18:35:14.352+05:30  INFO 12112 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.582 seconds (process running for 6.959)
-2026-06-08T18:36:10.373+05:30  INFO 12112 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T18:36:10.545+05:30  INFO 12112 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T18:36:14.936+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19016 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T18:36:14.951+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T18:36:15.092+05:30  INFO 19016 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-08T18:36:15.108+05:30  INFO 19016 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-08T18:36:17.313+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T18:36:17.328+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T18:36:17.328+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T18:36:17.422+05:30  INFO 19016 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2314 ms
-2026-06-08T18:36:18.375+05:30  WARN 19016 --- [demo] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 6173f6ca-98d0-48ee-87fa-0073de57f792
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-06-08T18:36:18.438+05:30  INFO 19016 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T18:36:18.735+05:30  INFO 19016 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T18:36:18.985+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T18:36:19.000+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.029 seconds (process running for 6.162)
-2026-06-08T18:40:09.404+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T18:40:09.404+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T18:40:09.412+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2026-06-08T18:40:09.455+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/greet' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-06-08T18:41:24.984+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-6] com.example.demo.DemoApplication         : logging msg
-2026-06-08T18:41:24.984+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-6] com.example.demo.DemoApplication         : warning msg...
-2026-06-08T18:41:25.181+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
-2026-06-08T18:43:09.231+05:30  INFO 19016 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2026-06-08T18:43:09.231+05:30  INFO 19016 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T18:43:09.395+05:30  INFO 19016 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T18:43:09.566+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19016 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T18:43:09.566+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T18:43:11.160+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T18:43:11.163+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T18:43:11.164+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T18:43:11.206+05:30  INFO 19016 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1624 ms
-2026-06-08T18:43:11.773+05:30  WARN 19016 --- [demo] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 73eb38bd-7454-4877-901c-acc9f222238b
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-06-08T18:43:11.820+05:30  INFO 19016 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T18:43:12.095+05:30  INFO 19016 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T18:43:12.243+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T18:43:12.251+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.747 seconds (process running for 419.413)
-2026-06-08T18:43:12.266+05:30  INFO 19016 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-08T18:43:19.488+05:30  INFO 19016 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2026-06-08T18:43:19.504+05:30  INFO 19016 --- [demo] [Thread-6] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T18:43:19.695+05:30  INFO 19016 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T18:43:19.828+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19016 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T18:43:19.828+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T18:43:20.421+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T18:43:20.421+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T18:43:20.421+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T18:43:20.468+05:30  INFO 19016 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 624 ms
-2026-06-08T18:43:20.701+05:30  WARN 19016 --- [demo] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: a85547f5-5c4d-43c0-92cc-d9952a7e70c2
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-06-08T18:43:20.717+05:30  INFO 19016 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T18:43:20.808+05:30  INFO 19016 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T18:43:20.861+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T18:43:20.861+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.088 seconds (process running for 428.023)
-2026-06-08T18:43:20.861+05:30  INFO 19016 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-08T18:43:28.088+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T18:43:28.088+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T18:43:28.088+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-06-08T18:43:28.104+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/greet' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-06-08T18:44:28.933+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : logging msg
-2026-06-08T18:44:28.933+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T18:44:29.013+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
-2026-06-08T18:46:02.603+05:30  INFO 19016 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-06-08T18:46:02.603+05:30  INFO 19016 --- [demo] [Thread-11] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T18:46:02.762+05:30  INFO 19016 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T18:46:02.911+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19016 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T18:46:02.911+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T18:46:04.412+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T18:46:04.412+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T18:46:04.412+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T18:46:04.474+05:30  INFO 19016 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1563 ms
-2026-06-08T18:46:04.921+05:30  INFO 19016 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T18:46:05.086+05:30  INFO 19016 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T18:46:05.220+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T18:46:05.220+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.371 seconds (process running for 592.384)
-2026-06-08T18:46:05.236+05:30  INFO 19016 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-08T18:46:08.821+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T18:46:08.821+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T18:46:08.835+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
-2026-06-08T18:46:08.845+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/greet' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-06-08T18:46:53.703+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-2] com.example.demo.DemoApplication         : logging msg
-2026-06-08T18:46:53.703+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-2] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T18:46:53.785+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
-2026-06-08T18:49:50.310+05:30  INFO 19016 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2026-06-08T18:49:50.310+05:30  INFO 19016 --- [demo] [Thread-16] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T18:49:50.514+05:30  INFO 19016 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T18:49:50.640+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 19016 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T18:49:50.640+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T18:49:51.189+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T18:49:51.189+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T18:49:51.189+05:30  INFO 19016 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T18:49:51.220+05:30  INFO 19016 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 565 ms
-2026-06-08T18:49:51.644+05:30  INFO 19016 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-06-08T18:49:51.878+05:30  INFO 19016 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T18:49:51.909+05:30  INFO 19016 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T18:49:51.909+05:30  INFO 19016 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.316 seconds (process running for 819.069)
-2026-06-08T18:49:51.909+05:30  INFO 19016 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
-
-
-==========================
-CONDITION EVALUATION DELTA
-==========================
-
-
-Positive matches:
------------------
-
-    None
-
-
-Negative matches:
------------------
-
-   ManagementWebSecurityAutoConfiguration:
-      Did not match:
-         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
-      Matched:
-         - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
-         - found 'session' scope (OnWebApplicationCondition)
-
-   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
-      Did not match:
-         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
-
-   UserDetailsServiceAutoConfiguration:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
-         - found 'session' scope (OnWebApplicationCondition)
-         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
-
-
-Exclusions:
------------
-
-    None
-
-
-Unconditional classes:
-----------------------
-
-    None
-
-
-
-2026-06-08T20:00:38.636+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T20:00:38.636+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T20:00:38.636+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-06-08T20:00:38.668+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:00:38.668+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:01:09.411+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:01:09.411+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:01:48.706+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:01:48.706+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:01:51.888+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:01:51.888+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:01:52.516+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-3] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:01:52.517+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-3] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:01:52.700+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:01:52.700+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:02:08.559+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:02:08.560+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:03:42.320+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-3] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:03:42.321+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-3] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:03:45.344+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:03:45.344+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:03:45.896+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-8] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:03:45.896+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-8] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:03:46.073+05:30  INFO 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:03:46.073+05:30  WARN 19016 --- [demo] [http-nio-9090-exec-9] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:03:51.104+05:30  INFO 19016 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T20:03:51.408+05:30  INFO 19016 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T20:04:00.809+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13360 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T20:04:00.825+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T20:04:00.968+05:30  INFO 13360 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-08T20:04:00.968+05:30  INFO 13360 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-08T20:04:03.416+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T20:04:03.447+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T20:04:03.447+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T20:04:03.541+05:30  INFO 13360 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2573 ms
-2026-06-08T20:04:04.385+05:30  INFO 13360 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-06-08T20:04:05.183+05:30  INFO 13360 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T20:04:05.277+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T20:04:05.293+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.591 seconds (process running for 6.74)
-2026-06-08T20:04:26.981+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T20:04:26.981+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T20:04:26.981+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-06-08T20:04:27.083+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : logging msg
-2026-06-08T20:04:27.083+05:30  WARN 13360 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-08T20:05:16.421+05:30  INFO 13360 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2026-06-08T20:05:16.421+05:30  INFO 13360 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T20:05:16.873+05:30  INFO 13360 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T20:05:17.045+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13360 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T20:05:17.045+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T20:05:17.933+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T20:05:17.935+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T20:05:17.936+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T20:05:17.981+05:30  INFO 13360 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 920 ms
-2026-06-08T20:05:18.293+05:30  INFO 13360 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T20:05:18.445+05:30  INFO 13360 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T20:05:18.511+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T20:05:18.528+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.557 seconds (process running for 79.968)
-2026-06-08T20:05:18.528+05:30  INFO 13360 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
-
-
-==========================
-CONDITION EVALUATION DELTA
-==========================
-
-
-Positive matches:
------------------
-
-   ManagementWebSecurityAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
-
-   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
-      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   UserDetailsServiceAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
-      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-
-Negative matches:
------------------
-
-    None
-
-
-Exclusions:
------------
-
-    None
-
-
-Unconditional classes:
-----------------------
-
-    None
-
-
-
-2026-06-08T20:05:18.645+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T20:05:18.645+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T20:05:18.645+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-06-08T20:05:18.645+05:30  WARN 13360 --- [demo] [http-nio-9090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/admin' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
-2026-06-08T20:05:19.202+05:30  WARN 13360 --- [demo] [http-nio-9090-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2026-06-08T20:05:21.729+05:30  INFO 13360 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2026-06-08T20:05:21.729+05:30  INFO 13360 --- [demo] [Thread-6] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T20:05:22.151+05:30  INFO 13360 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T20:05:22.276+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13360 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T20:05:22.276+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T20:05:22.879+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T20:05:22.879+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T20:05:22.879+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T20:05:22.926+05:30  INFO 13360 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 635 ms
-2026-06-08T20:05:23.332+05:30  INFO 13360 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-06-08T20:05:23.488+05:30  INFO 13360 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T20:05:23.504+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T20:05:23.504+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.275 seconds (process running for 84.952)
-2026-06-08T20:05:23.504+05:30  INFO 13360 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
-
-
-==========================
-CONDITION EVALUATION DELTA
-==========================
-
-
-Positive matches:
------------------
-
-    None
-
-
-Negative matches:
------------------
-
-   ManagementWebSecurityAutoConfiguration:
-      Did not match:
-         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
-      Matched:
-         - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
-         - found 'session' scope (OnWebApplicationCondition)
-
-   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
-      Did not match:
-         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
-
-   UserDetailsServiceAutoConfiguration:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
-         - found 'session' scope (OnWebApplicationCondition)
-         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
-
-
-Exclusions:
------------
-
-    None
-
-
-Unconditional classes:
-----------------------
-
-    None
-
-
-
-2026-06-08T20:08:19.426+05:30  INFO 13360 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2026-06-08T20:08:19.426+05:30  INFO 13360 --- [demo] [Thread-11] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T20:08:19.582+05:30  INFO 13360 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T20:08:20.244+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13360 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T20:08:20.244+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T20:08:20.954+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T20:08:20.954+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T20:08:20.954+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T20:08:20.985+05:30  INFO 13360 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 741 ms
-2026-06-08T20:08:21.282+05:30  INFO 13360 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-08T20:08:21.407+05:30  INFO 13360 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T20:08:21.454+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T20:08:21.454+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.784 seconds (process running for 262.905)
-2026-06-08T20:08:21.454+05:30  INFO 13360 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+2026-06-11T14:45:52.613+05:30  INFO 12280 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12280 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T14:45:52.633+05:30  INFO 12280 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T14:45:52.857+05:30  INFO 12280 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T14:45:52.857+05:30  INFO 12280 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T14:45:56.243+05:30  INFO 12280 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T14:45:56.275+05:30  INFO 12280 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T14:45:56.275+05:30  INFO 12280 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T14:45:56.353+05:30  INFO 12280 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3496 ms
+2026-06-11T14:45:57.197+05:30  INFO 12280 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T14:45:57.982+05:30  INFO 12280 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T14:45:58.083+05:30  INFO 12280 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T14:45:58.099+05:30  INFO 12280 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.669 seconds (process running for 8.274)
+2026-06-11T14:50:21.941+05:30  INFO 12280 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T14:50:21.941+05:30  INFO 12280 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T14:50:21.941+05:30  INFO 12280 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-11T14:50:22.076+05:30  INFO 12280 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : logging msg
+2026-06-11T14:50:22.076+05:30  WARN 12280 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : greeting successfully...
+2026-06-11T14:52:07.256+05:30  INFO 12280 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : logging msg
+2026-06-11T14:52:07.256+05:30  WARN 12280 --- [demo] [http-nio-9090-exec-5] com.example.demo.DemoApplication         : greeting successfully...
+2026-06-11T15:12:14.509+05:30  INFO 12280 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T15:12:14.641+05:30  INFO 12280 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T19:45:55.623+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T19:45:55.623+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T19:45:55.813+05:30  INFO 16088 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T19:45:55.813+05:30  INFO 16088 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T19:45:58.391+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T19:45:58.422+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T19:45:58.422+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T19:45:58.516+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2703 ms
+2026-06-11T19:45:59.328+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T19:46:00.098+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T19:46:00.192+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T19:46:00.208+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.624 seconds (process running for 7.243)
+2026-06-11T19:47:18.326+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T19:47:18.326+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T19:47:18.344+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-11T19:47:35.225+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T19:47:35.459+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-06-11T19:50:40.350+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-11T19:50:40.365+05:30  INFO 16088 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T19:50:40.521+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T19:50:40.745+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T19:50:40.745+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T19:50:41.681+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T19:50:41.681+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T19:50:41.681+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T19:50:41.728+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 983 ms
+2026-06-11T19:50:42.228+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T19:50:42.478+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T19:50:42.510+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T19:50:42.510+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.843 seconds (process running for 289.547)
+2026-06-11T19:50:42.525+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T19:50:43.889+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T19:50:43.889+05:30  INFO 16088 --- [demo] [Thread-6] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T19:50:44.061+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T19:50:44.207+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T19:50:44.207+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T19:50:44.882+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T19:50:44.882+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T19:50:44.882+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T19:50:44.915+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 708 ms
+2026-06-11T19:50:45.353+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T19:50:45.621+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T19:50:45.656+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T19:50:45.669+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.524 seconds (process running for 292.693)
+2026-06-11T19:50:45.671+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T19:53:26.013+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T19:53:26.013+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T19:53:26.024+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2026-06-11T19:53:26.392+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T19:54:57.970+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T19:55:35.542+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.example.demo.GlobalExceptionHandler#handleGeneral(Exception)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:288) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:261) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:460) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:72) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:176) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:78) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1227) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1035) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.18.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.18.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:493) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:354) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:86) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:132) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:247) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:337) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2026-06-11T19:55:35.610+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation]
+2026-06-11T19:55:50.194+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.example.demo.GlobalExceptionHandler#handleGeneral(Exception)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:288) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:261) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:460) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:72) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:176) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:78) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1227) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1035) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.18.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.5.jar:7.0.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.18.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:493) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:354) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:86) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:132) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:247) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:337) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.5.jar:7.0.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.18.jar:11.0.18]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2026-06-11T19:55:50.219+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation]
+2026-06-11T19:56:44.741+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T19:56:59.482+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T19:58:51.798+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T19:58:54.871+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T19:58:56.350+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-11T19:58:56.353+05:30  INFO 16088 --- [demo] [Thread-11] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T19:58:56.509+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T19:58:56.653+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T19:58:56.654+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T19:58:57.322+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T19:58:57.324+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T19:58:57.325+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T19:58:57.365+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 703 ms
+2026-06-11T19:58:57.644+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-11T19:58:57.785+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T19:58:57.865+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T19:58:57.873+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.284 seconds (process running for 784.898)
+2026-06-11T19:58:57.883+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
 
 
 ==========================
@@ -408,20 +386,235 @@ Unconditional classes:
 
 
 
-2026-06-08T20:08:23.726+05:30  INFO 13360 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2026-06-08T20:08:23.726+05:30  INFO 13360 --- [demo] [Thread-16] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-08T20:08:23.907+05:30  INFO 13360 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-06-08T20:08:24.177+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13360 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-08T20:08:24.177+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-08T20:08:25.082+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-08T20:08:25.082+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-08T20:08:25.082+05:30  INFO 13360 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-08T20:08:25.207+05:30  INFO 13360 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1014 ms
-2026-06-08T20:08:25.645+05:30  INFO 13360 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-06-08T20:08:25.863+05:30  INFO 13360 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-08T20:08:25.895+05:30  INFO 13360 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-08T20:08:25.895+05:30  INFO 13360 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.905 seconds (process running for 267.345)
-2026-06-08T20:08:25.895+05:30  INFO 13360 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+2026-06-11T19:58:57.897+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T19:58:57.898+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T19:58:57.901+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-06-11T19:58:57.907+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/pdf/generate' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-11T19:59:02.126+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T19:59:02.126+05:30  INFO 16088 --- [demo] [Thread-16] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T19:59:02.260+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T19:59:02.401+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T19:59:02.401+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T19:59:02.938+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T19:59:02.938+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T19:59:02.938+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T19:59:02.970+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 569 ms
+2026-06-11T19:59:03.391+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T19:59:03.482+05:30  WARN 16088 --- [demo] [restartedMain] thorizationManagerRequestMatcherRegistry : One of the patterns in [api/pdf/generate] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2026-06-11T19:59:03.482+05:30  WARN 16088 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: pattern must start with a /
+2026-06-11T19:59:03.482+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-11T19:59:03.498+05:30  INFO 16088 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-11T19:59:03.530+05:30 ERROR 16088 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: pattern must start with a /
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:872) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:827) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: pattern must start with a /
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:864) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: pattern must start with a /
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: pattern must start with a /
+	at org.springframework.util.Assert.isTrue(Assert.java:117) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.servlet.util.matcher.PathPatternRequestMatcher$Builder.matcher(PathPatternRequestMatcher.java:320) ~[spring-security-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:150) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:195) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.lambda$securityFilterChain$2(SecurityConfig.java:44) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:715) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.securityFilterChain(SecurityConfig.java:41) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398) ~[spring-context-7.0.5.jar:7.0.5]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 47 common frames omitted
+
+2026-06-11T20:00:34.302+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:00:34.302+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:00:34.898+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:00:34.898+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:00:34.898+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:00:34.943+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 641 ms
+2026-06-11T20:00:35.193+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-11T20:00:35.302+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:00:35.349+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:00:35.365+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.11 seconds (process running for 882.393)
+2026-06-11T20:00:35.365+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T20:00:38.645+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T20:00:38.645+05:30  INFO 16088 --- [demo] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:00:38.786+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:00:38.929+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:00:38.929+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:00:39.573+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:00:39.573+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:00:39.573+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:00:39.613+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 668 ms
+2026-06-11T20:00:40.056+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:00:40.147+05:30  WARN 16088 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: roles cannot be empty
+2026-06-11T20:00:40.156+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-11T20:00:40.156+05:30  INFO 16088 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-11T20:00:40.173+05:30 ERROR 16088 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: roles cannot be empty
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:872) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:827) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: roles cannot be empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:864) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: roles cannot be empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: roles cannot be empty
+	at org.springframework.util.Assert.notEmpty(Assert.java:324) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.security.authorization.AuthorityAuthorizationManager.hasAnyRole(AuthorityAuthorizationManager.java:109) ~[spring-security-core-7.0.3.jar:7.0.3]
+	at org.springframework.security.authorization.DefaultAuthorizationManagerFactory.hasAnyRole(DefaultAuthorizationManagerFactory.java:109) ~[spring-security-core-7.0.3.jar:7.0.3]
+	at org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl.hasAnyRole(AuthorizeHttpRequestsConfigurer.java:298) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.lambda$securityFilterChain$2(SecurityConfig.java:44) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:715) ~[spring-security-config-7.0.3.jar:7.0.3]
+	at com.example.demo.SecurityConfig.securityFilterChain(SecurityConfig.java:41) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>) ~[classes/:na]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-7.0.5.jar:7.0.5]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398) ~[spring-context-7.0.5.jar:7.0.5]
+	at com.example.demo.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 47 common frames omitted
+
+2026-06-11T20:02:40.224+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:02:40.224+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:02:41.097+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:02:41.097+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:02:41.097+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:02:41.143+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 919 ms
+2026-06-11T20:02:41.451+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-11T20:02:41.567+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:02:41.617+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:02:41.617+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.927 seconds (process running for 1008.655)
+2026-06-11T20:02:41.633+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T20:02:43.204+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:02:43.204+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:02:43.204+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-11T20:02:43.204+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/pdf/generate' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-11T20:02:44.911+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T20:02:44.911+05:30  INFO 16088 --- [demo] [Thread-30] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:02:45.115+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:02:45.258+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:02:45.258+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:02:45.890+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:02:45.890+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:02:45.890+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:02:45.933+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 675 ms
+2026-06-11T20:02:46.400+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:02:46.650+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:02:46.683+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:02:46.683+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.473 seconds (process running for 1013.72)
+2026-06-11T20:02:46.700+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
 
 
 ==========================
@@ -473,7 +666,429 @@ Unconditional classes:
 
 
 
-2026-06-08T20:08:49.171+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-08T20:08:49.171+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-08T20:08:49.176+05:30  INFO 13360 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2026-06-08T20:08:49.618+05:30  WARN 13360 --- [demo] [http-nio-9090-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-06-11T20:02:47.515+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:02:47.515+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:02:47.518+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-11T20:02:47.839+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:02:50.683+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:02:52.665+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:02:54.432+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:02:56.116+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:07:26.225+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:07:28.749+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:07:30.671+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:07:30.954+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-11T20:07:30.954+05:30  INFO 16088 --- [demo] [Thread-39] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:07:31.104+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:07:31.254+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:07:31.254+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:07:31.934+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:07:31.934+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:07:31.934+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:07:31.965+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 694 ms
+2026-06-11T20:07:32.199+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-11T20:07:32.309+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:07:32.353+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:07:32.369+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:07:32.369+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:07:32.372+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-11T20:07:32.373+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/pdf/generate' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-06-11T20:07:32.380+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.179 seconds (process running for 1299.405)
+2026-06-11T20:07:32.382+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-11T20:07:35.658+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T20:07:35.660+05:30  INFO 16088 --- [demo] [Thread-44] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:07:35.853+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:07:36.004+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:07:36.004+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:07:36.553+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:07:36.553+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:07:36.553+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:07:36.587+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 583 ms
+2026-06-11T20:07:37.042+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:07:37.273+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:07:37.305+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:07:37.305+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.352 seconds (process running for 1304.341)
+2026-06-11T20:07:37.305+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-11T20:07:37.444+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:07:37.444+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:07:37.444+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-11T20:07:37.826+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:07:55.952+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:09:46.453+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:09:48.341+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-11T20:09:48.343+05:30  INFO 16088 --- [demo] [Thread-49] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:09:48.500+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:09:48.650+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:09:48.651+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:09:49.861+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:09:49.861+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:09:49.861+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:09:49.892+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1235 ms
+2026-06-11T20:09:50.346+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:09:50.587+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:09:50.603+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:09:50.618+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.034 seconds (process running for 1437.648)
+2026-06-11T20:09:50.618+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T20:09:51.082+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:09:51.082+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:09:51.082+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-11T20:09:51.414+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:09:53.553+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:09:54.057+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T20:09:54.057+05:30  INFO 16088 --- [demo] [Thread-54] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:09:54.198+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:09:54.339+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:09:54.339+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:09:54.919+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:09:54.919+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:09:54.919+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:09:54.966+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 627 ms
+2026-06-11T20:09:55.437+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:09:55.724+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:09:55.749+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:09:55.749+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.457 seconds (process running for 1442.787)
+2026-06-11T20:09:55.767+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T20:09:57.837+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:09:57.847+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:09:57.848+05:30  INFO 16088 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-11T20:09:58.118+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:11:18.826+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:11:57.725+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:11:59.316+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:12:01.912+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:12:03.197+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:12:04.764+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:12:06.325+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:12:07.824+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/pdf/generate for request '/api/v1/pdf/generate'.]
+2026-06-11T20:12:20.457+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:12:22.029+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:12:23.491+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:12:24.873+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:12:26.523+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:12:28.123+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:13:26.354+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:13:28.373+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:13:30.547+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-11T20:13:30.547+05:30  INFO 16088 --- [demo] [Thread-59] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:13:30.671+05:30  WARN 16088 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate/'.]
+2026-06-11T20:13:30.704+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:13:30.871+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:13:30.872+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:13:31.565+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:13:31.565+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:13:31.565+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:13:31.597+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 718 ms
+2026-06-11T20:13:31.884+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-11T20:13:31.984+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:13:32.046+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:13:32.046+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.234 seconds (process running for 1659.082)
+2026-06-11T20:13:32.046+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-11T20:13:35.352+05:30  INFO 16088 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T20:13:35.352+05:30  INFO 16088 --- [demo] [Thread-64] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:13:35.565+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:13:35.713+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 16088 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:13:35.713+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:13:36.323+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:13:36.323+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:13:36.323+05:30  INFO 16088 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:13:36.354+05:30  INFO 16088 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 626 ms
+2026-06-11T20:13:36.783+05:30  INFO 16088 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:13:36.971+05:30  INFO 16088 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:13:36.987+05:30  INFO 16088 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:13:36.987+05:30  INFO 16088 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.338 seconds (process running for 1664.021)
+2026-06-11T20:13:36.987+05:30  INFO 16088 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-11T20:16:06.037+05:30  INFO 16088 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:16:06.162+05:30  INFO 16088 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:16:13.328+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13756 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:16:13.343+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:16:13.486+05:30  INFO 13756 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T20:16:13.486+05:30  INFO 13756 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T20:16:15.751+05:30  INFO 13756 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:16:15.782+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:16:15.782+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:16:15.876+05:30  INFO 13756 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2390 ms
+2026-06-11T20:16:16.766+05:30  INFO 13756 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:16:17.768+05:30  INFO 13756 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:16:17.885+05:30  INFO 13756 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:16:17.901+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.548 seconds (process running for 6.678)
+2026-06-11T20:16:51.868+05:30  INFO 13756 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:16:51.869+05:30  INFO 13756 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:16:51.871+05:30  INFO 13756 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-11T20:16:52.345+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:16:54.061+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:16:57.598+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:16:59.277+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:17:00.878+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:17:18.793+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:18:26.174+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:18:28.380+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:22:07.810+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:22:09.502+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:22:11.669+05:30  INFO 13756 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-06-11T20:22:11.679+05:30  INFO 13756 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:22:11.830+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:22:11.847+05:30  INFO 13756 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:22:12.026+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13756 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:22:12.026+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:22:12.836+05:30  INFO 13756 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:22:12.837+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:22:12.838+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:22:12.884+05:30  INFO 13756 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 850 ms
+2026-06-11T20:22:13.384+05:30  INFO 13756 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-11T20:22:13.656+05:30  INFO 13756 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-11T20:22:13.694+05:30  INFO 13756 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-11T20:22:13.707+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.751 seconds (process running for 362.476)
+2026-06-11T20:22:13.714+05:30  INFO 13756 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-11T20:22:15.348+05:30  INFO 13756 --- [demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T20:22:15.348+05:30  INFO 13756 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T20:22:15.352+05:30  INFO 13756 --- [demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-06-11T20:22:15.704+05:30  WARN 13756 --- [demo] [http-nio-9090-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/pdf/generate for request '/api/pdf/generate'.]
+2026-06-11T20:22:17.120+05:30  INFO 13756 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-11T20:22:17.345+05:30  INFO 13756 --- [demo] [Thread-6] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-11T20:22:17.735+05:30  INFO 13756 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-11T20:22:17.891+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 13756 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:22:17.891+05:30  INFO 13756 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:22:18.597+05:30  INFO 13756 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:22:18.597+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:22:18.597+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:22:18.630+05:30  INFO 13756 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 739 ms
+2026-06-11T20:22:18.714+05:30  WARN 13756 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pdfController' defined in file [C:\Users\Lenovo\IdeaProjects\demo\target\classes\com\example\demo\PdfController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.demo.PdfGenerationService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-06-11T20:22:18.714+05:30  INFO 13756 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-11T20:22:18.730+05:30  INFO 13756 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-11T20:22:18.763+05:30 ERROR 13756 --- [demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.PdfController required a bean of type 'com.example.demo.PdfGenerationService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.PdfGenerationService' in your configuration.
+
+2026-06-11T20:22:42.024+05:30  INFO 10800 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 10800 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-11T20:22:42.040+05:30  INFO 10800 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-11T20:22:42.172+05:30  INFO 10800 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T20:22:42.187+05:30  INFO 10800 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T20:22:44.958+05:30  INFO 10800 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-11T20:22:44.989+05:30  INFO 10800 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T20:22:44.989+05:30  INFO 10800 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-11T20:22:45.083+05:30  INFO 10800 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2896 ms
+2026-06-11T20:22:45.483+05:30  WARN 10800 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pdfController' defined in file [C:\Users\Lenovo\IdeaProjects\demo\target\classes\com\example\demo\PdfController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.demo.PdfGenerationService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-06-11T20:22:45.483+05:30  INFO 10800 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-11T20:22:45.514+05:30  INFO 10800 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-11T20:22:45.561+05:30 ERROR 10800 --- [demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.PdfController required a bean of type 'com.example.demo.PdfGenerationService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.PdfGenerationService' in your configuration.
+
