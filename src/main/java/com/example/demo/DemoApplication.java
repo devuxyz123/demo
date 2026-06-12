@@ -18,7 +18,6 @@ import java.util.logging.Logger;
 @RequestMapping("/api")
 public class DemoApplication {
 
-
     @Value("${app.title}")
     private String title;
 
@@ -26,16 +25,15 @@ public class DemoApplication {
 
     @GetMapping("/greet")
     public String greet() {
-       logger.info("logging msg");
-       logger.warning("greeting successfully...");
+        logger.info("logging msg");
+        logger.warning("greeting successfully...");
         return title;
     }
 
-    @PostMapping(value="/admin" )
+    @PostMapping("/admin")
     public ResponseEntity<UserRecord> createUser(@RequestBody UserRecord newUser) {
-        System.out.println("userRecord created with role ..."+newUser.getRole());
+        System.out.println("userRecord created with role ..." + newUser.getRole());
         return ResponseEntity.ok(newUser);
-
     }
 
     @GetMapping("/products")
@@ -46,35 +44,24 @@ public class DemoApplication {
 
     @DeleteMapping("/delete/{id}")
     @PreAuthorize("hasRole('ADMIN')")
-    public  ResponseEntity<String> deleteProduct(@PathVariable Long id) {
-        if (id <= 0||id>=100) {
+    public ResponseEntity<String> deleteProduct(@PathVariable Long id) {
+        if (id <= 0 || id >= 100) {
             throw new InvalidInputException("Product ID must be greater than zero.");
         }
-
-
-
-
-//        if(id==0)
-//            return String.valueOf(new NullPointerException("ID can not be zero"));
-
-        return ResponseEntity.ok("Product deleted with ID "+id);
+        return ResponseEntity.ok("Product deleted with ID " + id);
     }
 
     @GetMapping("product/{id}")
     public String getOrder(@PathVariable String id) {
-        // Simulating a database lookup failure
         if ("404".equals(id)) {
-            throw new ProductNotFoundException("ProductNotFoundException",id);
+            throw new ProductNotFoundException("ProductNotFoundException", id);
         }
-
-        if (id.isEmpty()||id.isBlank()) { // Simulating database check
+        if (id.isBlank()) {
             throw new ResourceNotFoundException("ID is blank or empty");
         }
-
         return "Product details for ID: " + id;
     }
 
-    // --- LOCAL EXCEPTION HANDLER ---
     @ExceptionHandler(ProductNotFoundException.class)
     public ResponseEntity<Map<String, Object>> handleProductNotFound(ProductNotFoundException ex) {
         Map<String, Object> errorBody = new HashMap<>();
@@ -83,16 +70,11 @@ public class DemoApplication {
         errorBody.put("error", "Handling locally Product Not Found");
         errorBody.put("message", ex.getMessage());
         errorBody.put("requestedId", ex.getOrderId());
-
         return new ResponseEntity<>(errorBody, HttpStatus.NOT_FOUND);
     }
 
-
-
     public static void main(String[] args) {
-
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("Hello Main Class");
     }
-
 }
