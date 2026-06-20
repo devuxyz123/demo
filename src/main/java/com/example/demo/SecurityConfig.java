@@ -25,83 +25,79 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        System.out.println("entered into securityconfig");
-        http
-                 //Disable CSRF for REST APIs (use with caution in production.
-                // This is standard practice for stateless REST APIs
-                // (e.g., APIs using JWTs or HTTP Basic Auth where there are no session cookies).
-                // However, as the comment in the code suggests, you should keep CSRF enabled
-                // if your API relies on browser-managed session cookies.)
-    .csrf(csrf -> csrf.disable())
-
-                // Enable CORS and link it to the corsConfigurationSource bean automatically
-                .cors(cors -> {}).httpBasic(Customizer.withDefaults())
-
-                // Define URL authorization rules
-                .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(HttpMethod.POST, "/api/admin").hasRole("ADMIN")
-                        .requestMatchers("/api/delete/**").hasRole("ADMIN")
-                        .requestMatchers(HttpMethod.GET, "/api/greet").permitAll()
-                        .anyRequest().authenticated()
-                );
-
-//        http
-//                .csrf(csrf -> csrf.disable())
-//                .authorizeHttpRequests(auth -> auth
-//                        .requestMatchers("/api/delete/**").hasRole("ADMIN")
-//                        .anyRequest().authenticated()
-//                )
-//                .httpBasic(Customizer.withDefaults());
-
+        http.csrf(csrf -> csrf.disable())
+            .cors(cors -> {}).httpBasic(Customizer.withDefaults())
+            .authorizeHttpRequests(auth -> auth
+                .requestMatchers(HttpMethod.POST, "/api/admin").hasRole("ADMIN")
+                .requestMatchers("/api/delete/**").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.POST, "/api/pdf/**").hasAnyRole("ADMIN", "USER")
+                .requestMatchers(HttpMethod.GET, "/api/greet").permitAll()
+                .anyRequest().authenticated()
+            );
         return http.build();
     }
 
-
-    // 1. Define custom users and roles
     @Bean
     public UserDetailsService userDetailsService(PasswordEncoder passwordEncoder) {
         UserDetails admin = User.builder()
-                .username("admin")
-                // Hashes the password "admin123"
-                .password(passwordEncoder.encode("admin123"))
-                .roles("USER","ADMIN")
-                .build();
+            .username("admin")
+            .password(passwordEncoder.encode("admin123"))
+            .roles("USER", "ADMIN")
+            .build();
 
         UserDetails user = User.builder()
-                .username("user111")
-                // Hashes the password "user123"
-                .password(passwordEncoder.encode("user123"))
-                .roles("USER")
-                .build();
-        System.out.println("in userDetailsService method");
+            .username("user111")
+            .password(passwordEncoder.encode("user123"))
+            .roles("USER")
+            .build();
 
         return new InMemoryUserDetailsManager(admin, user);
     }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        System.out.println("in passwordEncoder method"); return new BCryptPasswordEncoder();
+        return new BCryptPasswordEncoder();
     }
 
     @Bean
-    public CorsConfigurationSource corsConfigurationSource() {
-        CorsConfiguration configuration = new CorsConfiguration();
+   /**
+ * Configures CORS (Cross-Origin Resource Sharing) settings for the application.
+ *
+ * This method defines which external origins are allowed to access the API,
+ * what HTTP methods are permitted, which headers can be used, and whether
+ * credentials (cookies, authorization headers) can be included in requests.
+ *
+ * The configuration is applied to all endpoints (/**) in the application.
+ *
+ * @return CorsConfigurationSource configured with allowed origins, methods, headers, and credentials
+ */
+public CorsConfigurationSource corsConfigurationSource() {
+    // Create a new CORS configuration object
+    CorsConfiguration configuration = new CorsConfiguration();
 
-        // Allow your frontend origin
-        configuration.setAllowedOrigins(List.of("http://localhost:3000"));
+    // Allow requests only from the specified frontend origin (localhost:3000)
+    // This prevents unauthorized cross-origin requests from other domains
+    configuration.setAllowedOrigins(List.of("http://localhost:3000"));
 
-        // HTTP Methods allowed
-        configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+    // Allow these HTTP methods to be used in cross-origin requests
+    // GET: retrieve data, POST: create data, PUT: update data, DELETE: remove data, OPTIONS: preflight requests
+    configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
 
-        // Allow all headers
-        configuration.setAllowedHeaders(List.of("*"));
+    // Allow any headers to be sent in requests
+    // The "*" wildcard permits all standard and custom headers
+    configuration.setAllowedHeaders(List.of("*"));
 
-        // Allow cookies and authentication headers
-        configuration.setAllowCredentials(true);
+    // Allow credentials (cookies, authorization headers) to be sent with cross-origin requests
+    // This is necessary if the frontend needs to send authentication tokens or cookies
+    configuration.setAllowCredentials(true);
 
-        // Apply this CORS configuration to all paths
-        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", configuration);
-        return source;
-    }
+    // Create a URL-based CORS configuration source
+    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+
+    // Register the CORS configuration for all application endpoints
+    // The "/**" pattern matches all paths in the application
+    source.registerCorsConfiguration("/**", configuration);
+
+    return source;
+}
 }
