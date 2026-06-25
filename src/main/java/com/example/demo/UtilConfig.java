@@ -19,7 +19,7 @@ public class UtilConfig {
     }
 
     public void readValue() {
-        System.out.println("Property value: " + value);
+        System.out.println("Properties value: " + value);
     }
 
 }

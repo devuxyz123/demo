@@ -46,7 +46,7 @@ public class DemoApplication {
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<String> deleteProduct(@PathVariable Long id) {
         if (id <= 0 || id >= 100) {
-            throw new InvalidInputException("Product ID must be greater than zero.");
+            throw new InvalidInputException("Product ID must be greater than zero.....");
         }
         return ResponseEntity.ok("Product deleted with ID " + id);
     }
