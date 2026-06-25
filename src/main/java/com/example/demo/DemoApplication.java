@@ -51,7 +51,7 @@ public class DemoApplication {
         return ResponseEntity.ok("Product deleted with ID " + id);
     }
 
-    
+
 
     @GetMapping("product/{id}")
     public String getOrder(@PathVariable String id) {
