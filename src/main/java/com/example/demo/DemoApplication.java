@@ -44,7 +44,7 @@ public class DemoApplication {
 
     @DeleteMapping("/delete/{id}")
     @PreAuthorize("hasRole('ADMIN')")
-    pub ResponseEntity<String> deleteProduct(@PathVariable Long id) {
+    public ResponseEntity<String> deleteProduct(@PathVariable Long id) {
         if (id <= 0 || id >= 100) {
             throw new InvalidInputException("Product ID must be greater than zero.....");
         }

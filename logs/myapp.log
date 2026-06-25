@@ -1,22 +1,14 @@
-2026-06-21T13:32:37.472+05:30  INFO 15684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 15684 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-21T13:32:37.491+05:30  INFO 15684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-21T13:32:37.693+05:30  INFO 15684 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-21T13:32:37.693+05:30  INFO 15684 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-21T13:32:40.126+05:30  INFO 15684 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-21T13:32:40.158+05:30  INFO 15684 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-21T13:32:40.158+05:30  INFO 15684 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-21T13:32:40.251+05:30  INFO 15684 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2558 ms
-2026-06-21T13:32:41.017+05:30  INFO 15684 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-06-21T13:32:41.915+05:30  INFO 15684 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-21T13:32:42.040+05:30  INFO 15684 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-21T13:32:42.056+05:30  INFO 15684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.679 seconds (process running for 7.615)
-2026-06-21T13:34:36.220+05:30  INFO 15684 --- [demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-21T13:34:36.220+05:30  INFO 15684 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-21T13:34:36.230+05:30  INFO 15684 --- [demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2026-06-21T13:34:36.365+05:30  INFO 15684 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : logging msg
-2026-06-21T13:34:36.365+05:30  WARN 15684 --- [demo] [http-nio-9090-exec-1] com.example.demo.DemoApplication         : greeting successfully...
-2026-06-21T13:36:23.350+05:30  WARN 15684 --- [demo] [http-nio-9090-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/product for request '/api/product'.]
-2026-06-21T13:36:23.575+05:30  WARN 15684 --- [demo] [http-nio-9090-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
-2026-06-21T13:37:23.081+05:30  WARN 15684 --- [demo] [http-nio-9090-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
-2026-06-21T13:37:45.367+05:30  INFO 15684 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-21T13:37:45.647+05:30  INFO 15684 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-25T16:12:40.586+05:30  INFO 14428 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 14428 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
+2026-06-25T16:12:40.592+05:30  INFO 14428 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-06-25T16:12:40.788+05:30  INFO 14428 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-25T16:12:40.788+05:30  INFO 14428 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-25T16:12:43.059+05:30  INFO 14428 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-06-25T16:12:43.090+05:30  INFO 14428 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-25T16:12:43.090+05:30  INFO 14428 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-06-25T16:12:43.152+05:30  INFO 14428 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2353 ms
+2026-06-25T16:12:43.934+05:30  INFO 14428 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-06-25T16:12:44.668+05:30  INFO 14428 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-06-25T16:12:44.762+05:30  INFO 14428 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-06-25T16:12:44.778+05:30  INFO 14428 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.363 seconds (process running for 6.727)
+2026-06-25T16:14:36.790+05:30  INFO 14428 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-25T16:14:36.962+05:30  INFO 14428 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
