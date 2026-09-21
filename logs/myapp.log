@@ -1,14 +1,196 @@
-2026-06-25T16:12:40.586+05:30  INFO 14428 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 14428 (C:\Users\Lenovo\IdeaProjects\demo\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\demo)
-2026-06-25T16:12:40.592+05:30  INFO 14428 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
-2026-06-25T16:12:40.788+05:30  INFO 14428 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-25T16:12:40.788+05:30  INFO 14428 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-25T16:12:43.059+05:30  INFO 14428 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
-2026-06-25T16:12:43.090+05:30  INFO 14428 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-25T16:12:43.090+05:30  INFO 14428 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-06-25T16:12:43.152+05:30  INFO 14428 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2353 ms
-2026-06-25T16:12:43.934+05:30  INFO 14428 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
-2026-06-25T16:12:44.668+05:30  INFO 14428 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
-2026-06-25T16:12:44.762+05:30  INFO 14428 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
-2026-06-25T16:12:44.778+05:30  INFO 14428 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.363 seconds (process running for 6.727)
-2026-06-25T16:14:36.790+05:30  INFO 14428 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-25T16:14:36.962+05:30  INFO 14428 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-21T15:37:00.521+05:30  INFO 9088 --- [demo] [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 17.0.12 with PID 9088 (started by Lenovo in D:\Banking_featurebranch\demo)
+2026-09-21T15:37:00.688+05:30  INFO 9088 --- [demo] [main] com.example.demo.DemoApplicationTests    : The following 1 profile is active: "dev"
+2026-09-21T15:37:07.444+05:30  INFO 9088 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-09-21T15:37:10.192+05:30  INFO 9088 --- [demo] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-09-21T15:37:10.418+05:30  INFO 9088 --- [demo] [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 11.495 seconds (process running for 16.744)
+2026-09-21T15:37:14.307+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:14.308+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:14.318+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-09-21T15:37:14.824+05:30  INFO 9088 --- [demo] [main] com.example.demo.DemoApplication         : logging msg
+2026-09-21T15:37:14.828+05:30  WARN 9088 --- [demo] [main] com.example.demo.DemoApplication         : greeting successfully...
+2026-09-21T15:37:15.042+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:15.047+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:15.050+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T15:37:15.654+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:15.655+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:15.659+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T15:37:15.756+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:15.772+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:15.776+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T15:37:15.847+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:15.851+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:15.854+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21T15:37:15.912+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:15.913+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:15.917+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T15:37:16.316+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.318+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.326+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2026-09-21T15:37:16.376+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.403+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.412+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2026-09-21T15:37:16.467+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.468+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.472+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21T15:37:16.552+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.553+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.555+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21T15:37:16.601+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.602+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.624+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 21 ms
+2026-09-21T15:37:16.675+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.677+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.681+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T15:37:16.713+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.714+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.717+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-09-21T15:37:16.737+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.737+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.742+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-09-21T15:37:16.828+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:16.829+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:16.855+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T15:37:17.169+05:30  INFO 9088 --- [demo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-21T15:37:17.170+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-21T15:37:17.173+05:30  INFO 9088 --- [demo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-09-21T16:05:53.751+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12320 (D:\Banking_featurebranch\demo\target\classes started by Lenovo in D:\Banking_featurebranch\demo)
+2026-09-21T16:05:53.767+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-09-21T16:05:54.029+05:30  INFO 12320 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-21T16:05:54.032+05:30  INFO 12320 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-21T16:05:57.852+05:30  INFO 12320 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-09-21T16:05:57.893+05:30  INFO 12320 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:05:57.894+05:30  INFO 12320 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-09-21T16:05:58.018+05:30  INFO 12320 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3985 ms
+2026-09-21T16:05:59.127+05:30  INFO 12320 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-09-21T16:06:00.479+05:30  INFO 12320 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-09-21T16:06:00.624+05:30  INFO 12320 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-09-21T16:06:00.656+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 8.734 seconds (process running for 12.498)
+2026-09-21T16:06:02.161+05:30  INFO 12320 --- [demo] [RMI TCP Connection(2)-10.224.191.132] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-21T16:06:02.162+05:30  INFO 12320 --- [demo] [RMI TCP Connection(2)-10.224.191.132] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-21T16:06:02.170+05:30  INFO 12320 --- [demo] [RMI TCP Connection(2)-10.224.191.132] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-09-21T16:08:32.454+05:30  INFO 12320 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (0 additions, 11 deletions, 2 modifications)
+2026-09-21T16:08:32.465+05:30  INFO 12320 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-21T16:08:32.740+05:30  INFO 12320 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-21T16:08:33.133+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12320 (D:\Banking_featurebranch\demo\target\classes started by Lenovo in D:\Banking_featurebranch\demo)
+2026-09-21T16:08:33.134+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-09-21T16:08:35.827+05:30  INFO 12320 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-09-21T16:08:35.834+05:30  INFO 12320 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:08:35.837+05:30  INFO 12320 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-09-21T16:08:35.932+05:30  INFO 12320 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2791 ms
+2026-09-21T16:08:37.892+05:30  INFO 12320 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-09-21T16:08:38.098+05:30  INFO 12320 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-09-21T16:08:38.217+05:30  INFO 12320 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-09-21T16:08:38.225+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.241 seconds (process running for 170.067)
+2026-09-21T16:08:38.233+05:30  INFO 12320 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-09-21T16:08:48.653+05:30  INFO 12320 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 11 class path changes (11 additions, 0 deletions, 0 modifications)
+2026-09-21T16:08:48.656+05:30  INFO 12320 --- [demo] [Thread-6] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-21T16:08:48.884+05:30  INFO 12320 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-21T16:08:49.032+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 12320 (D:\Banking_featurebranch\demo\target\classes started by Lenovo in D:\Banking_featurebranch\demo)
+2026-09-21T16:08:49.032+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-09-21T16:08:49.781+05:30  INFO 12320 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2026-09-21T16:08:49.782+05:30  INFO 12320 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-21T16:08:49.783+05:30  INFO 12320 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-09-21T16:08:49.818+05:30  INFO 12320 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 781 ms
+2026-09-21T16:08:50.364+05:30  INFO 12320 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-09-21T16:08:50.752+05:30  INFO 12320 --- [demo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 5 endpoints beneath base path '/actuator'
+2026-09-21T16:08:50.799+05:30  INFO 12320 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2026-09-21T16:08:50.809+05:30  INFO 12320 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.831 seconds (process running for 182.651)
+2026-09-21T16:08:50.813+05:30  INFO 12320 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 3 matched 0 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-09-21T16:12:38.494+05:30  INFO 12320 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-21T16:12:38.631+05:30  INFO 12320 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete

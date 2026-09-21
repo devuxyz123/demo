@@ -69,7 +69,7 @@ public class DemoApplication {
         Map<String, Object> errorBody = new HashMap<>();
         errorBody.put("timestamp", System.currentTimeMillis());
         errorBody.put("status", HttpStatus.NOT_FOUND.value());
-        errorBody.put("error", "Handling locally Product Not Found");
+        errorBody.put("Handled locally error", "Product Not Found");
         errorBody.put("message", ex.getMessage());
         errorBody.put("requestedId", ex.getOrderId());
         return new ResponseEntity<>(errorBody, HttpStatus.NOT_FOUND);
